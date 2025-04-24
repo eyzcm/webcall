@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UIEachBotMainWnd</class>
+ <widget class="QWidget" name="UIEachBotMainWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>560</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>UIEachBot 设置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin" stdset="0">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin" stdset="0">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_left_btns" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>81</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>81</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget#widget_left_btns
+{
+	border-right: 1px solid #dddddd;
+	background-color: #2B3236;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="btnPanel" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>300</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_left_btns
+{
+background-color: #2B3236;
+}</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="margin" stdset="0">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="SwitchButton" name="m_robotSettingBtn">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:hover{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+background:#464d51;
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:pressed{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}</string>
+              </property>
+              <property name="text">
+               <string>机器人设置</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                <normaloff>:/YL/Resources/YL/Robot/btn_RobotSetting.png</normaloff>:/YL/Resources/YL/Robot/btn_RobotSetting.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>24</width>
+                <height>24</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SwitchButton" name="m_manRobotSettingBtn">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:hover{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+background:#464d51;
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:pressed{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}</string>
+              </property>
+              <property name="text">
+               <string>接通时提醒</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                <normaloff>:/YL/Resources/YL/Robot/btn_connectPrompt.png</normaloff>:/YL/Resources/YL/Robot/btn_connectPrompt.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>24</width>
+                <height>24</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SwitchButton" name="m_btn_KeyPrompt">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:hover{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+background:#464d51;
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:pressed{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}</string>
+              </property>
+              <property name="text">
+               <string>对话中访客
+关键词提醒</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                <normaloff>:/YL/Resources/YL/Robot/btn_keyWordPrompt.png</normaloff>:/YL/Resources/YL/Robot/btn_keyWordPrompt.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>24</width>
+                <height>24</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SwitchButton" name="m_btn_CountPrompt">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>80</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:hover{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+background:#464d51;
+padding-bottom:10px;
+color: #ffffff;
+}
+QToolButton:pressed{
+border-image: url(:/Resources/Image/toolbtn_normal.png);
+padding-top:10px;
+
+padding-bottom:10px;
+color: #ffffff;
+}</string>
+              </property>
+              <property name="text">
+               <string>机器人索联
+次数提醒</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                <normaloff>:/YL/Resources/YL/Robot/btn_askContactCountPrompt.png</normaloff>:/YL/Resources/YL/Robot/btn_askContactCountPrompt.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>24</width>
+                <height>24</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>81</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_rule" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="robotSettingPage">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="UIYL_EachbotSettingWidget" name="m_settingPanel" native="true"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="manRobotSettingPage">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="UIYL_ManRobotSettingWidget" name="m_manRobotSettingWidget" native="true"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="m_page_keyPrompt">
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="UIYL_ManRobotSettingWidget_KeyPrompt" name="m_panel_KeyPrompt" native="true"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="m_page_countPrompt">
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="UIYL_ManRobotSettingWidget_CountPrompt" name="m_panel_CountPrompt" native="true"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="m_page_AlternateRobot">
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="m_panel_AlternateRobot" native="true"/>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QToolButton</extends>
+   <header location="global">switchbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UIYL_EachbotSettingWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">UIYL_EachbotSettingWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UIYL_ManRobotSettingWidget</class>
+   <extends>QWidget</extends>
+   <header>UIYL_ManRobotSettingWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UIYL_ManRobotSettingWidget_KeyPrompt</class>
+   <extends>QWidget</extends>
+   <header location="global">uiyl_manrobotsettingwidget_keyprompt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UIYL_ManRobotSettingWidget_CountPrompt</class>
+   <extends>QWidget</extends>
+   <header location="global">uiyl_manrobotsettingwidget_countprompt.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EL_CommonWord_Popup_UI</class>
+ <widget class="QWidget" name="EL_CommonWord_Popup_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>633</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>常用语</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>10</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_bg
+{
+width: 558px;
+height: 533px;
+background: #FFFFFF; 
+border-radius: 4px;
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0" colspan="2">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>15</number>
+          </property>
+          <property name="topMargin">
+           <number>11</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_title">
+            <property name="styleSheet">
+             <string notr="true">font-size: 16px; 
+color: #333333;
+font: 700;</string>
+            </property>
+            <property name="text">
+             <string>添加常用语</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QToolButton" name="m_closeBtn">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QToolButton{
+    background: transparent;
+    border-radius: 0px;
+}
+QToolButton:hover{  /*鼠标放上后*/
+        background-color: rgb(253, 28, 44);
+    border-radius: 0px;
+}
+QToolButton:pressed{ /*按下按钮后*/
+        background-color: rgb(253, 28, 44);
+    border-radius: 0px;
+}
+QToolButton:checked{    /*选中后*/
+    background: transparent;
+    border-radius: 0px;
+} </string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+              <normaloff>:/Resources/SVG/close_black.svg</normaloff>:/Resources/SVG/close_black.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="Line" name="line">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #EEEEEE;</string>
+          </property>
+          <property name="lineWidth">
+           <number>1</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_word">
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="leftMargin">
+           <number>15</number>
+          </property>
+          <property name="topMargin">
+           <number>30</number>
+          </property>
+          <property name="rightMargin">
+           <number>15</number>
+          </property>
+          <property name="bottomMargin">
+           <number>15</number>
+          </property>
+          <property name="horizontalSpacing">
+           <number>10</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>20</number>
+          </property>
+          <item row="1" column="1">
+           <widget class="UI_SummaryTag_ComboBox" name="group">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QComboBox
+{
+border:1px solid rgb(221, 221, 221);
+font: 14px &quot;微软雅黑&quot;;
+color: #333333;
+padding-left:10px;
+border-radius: 4px;
+}
+
+QComboBox::drop-down
+{
+width: 20px;
+border: 0px;
+}
+
+QComboBox::down-arrow
+{
+width:20px;
+height:30px;
+padding-right:0px;
+image: url(:/Resources/SVG/commonWord/commonWord_arrow_open.svg); 
+}
+
+QComboBox QAbstractItemView
+{
+border:0px;
+outline: 0;
+font: 14px &quot;微软雅黑&quot;;
+color: #666666;
+margin-top:1px;
+background-color: rgb(255, 255, 255);
+}
+
+QComboBox QAbstractItemView::item
+{
+height:32px;
+}
+
+QComboBox QAbstractItemView::item:hover
+{
+color: rgb(116, 116, 116);
+background-color: rgb(230, 242, 255);
+}
+ 
+QComboBox QAbstractItemView::item:selected
+{
+color: rgb(116, 116, 116);
+background-color: rgb(230, 242, 255);
+}
+
+
+QComboBox QAbstractScrollArea QScrollBar:vertical
+{
+	background-color: #d0d2d4;
+}
+ 
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical
+{
+	background: rgb(160,160,160);
+}
+ 
+QComboBox QAbstractScrollArea QScrollBar::handle:vertical:hover
+{
+	background: rgb(90, 91, 93);
+}</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="Shortcutkey">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background: #FFFFFF;
+border-radius: 4px;
+border: 1px solid #DCDFE6;
+font-size: 14px;
+padding-left:10px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>点击设置快捷键</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_Shortcutkey">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size: 14px; 
+color: #606266;</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:700;&quot;&gt;快捷键&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="label_content">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>32</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#f56c6c;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#606266;&quot;&gt;内容&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_smalltitle">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#f56c6c;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#606266;&quot;&gt;标题&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_group">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#f56c6c;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#606266;&quot;&gt;分组&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="addGroup">
+            <property name="styleSheet">
+             <string notr="true">font-size: 14px; 
+color: #409EFF;  
+padding-right:0px;
+padding-left:0px; 
+border-radius: 1px;</string>
+            </property>
+            <property name="text">
+             <string>添加分组</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="2">
+           <widget class="el_TextEdit" name="content" native="true">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="saveCommonWord">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>60</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background: #409EFF;
+border-radius: 4px; 
+font-size: 14px;  
+color: #FFFFFF; </string>
+            </property>
+            <property name="text">
+             <string>保存</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QWidget" name="title_bg" native="true">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QWidget#title_bg
+{
+background: #FFFFFF;
+border-radius: 4px;
+border: 1px solid #DCDFE6;
+}</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="spacing">
+              <number>5</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLineEdit" name="title">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgba(255, 255, 255, 0);
+font-size: 14px;
+padding-left:10px;</string>
+               </property>
+               <property name="maxLength">
+                <number>50</number>
+               </property>
+               <property name="placeholderText">
+                <string>请输入</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="titlenum">
+               <property name="styleSheet">
+                <string notr="true">font-size: 14px;  
+color: #BBBBBB; 
+padding-right:5px;</string>
+               </property>
+               <property name="text">
+                <string>0/50</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_group">
+         <layout class="QGridLayout" name="gridLayout_3" rowstretch="0,0,0">
+          <property name="leftMargin">
+           <number>15</number>
+          </property>
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <property name="rightMargin">
+           <number>15</number>
+          </property>
+          <property name="bottomMargin">
+           <number>15</number>
+          </property>
+          <property name="horizontalSpacing">
+           <number>10</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>0</number>
+          </property>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="saveCommonWord_Group">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>60</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background: #409EFF;
+border-radius: 4px; 
+font-size: 14px;  
+color: #FFFFFF; </string>
+            </property>
+            <property name="text">
+             <string>保存</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_title_6">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:700; color:#606266;&quot;&gt;分组名称&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" colspan="2">
+           <widget class="QWidget" name="groupContent_bg" native="true">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QWidget#groupContent_bg
+{
+background: #FFFFFF;
+border-radius: 4px;
+border: 1px solid #DCDFE6;
+}</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>5</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLineEdit" name="groupContent">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgba(255, 255, 255, 0);
+font-size: 14px;
+padding-left:10px;</string>
+               </property>
+               <property name="maxLength">
+                <number>20</number>
+               </property>
+               <property name="placeholderText">
+                <string>请输入</string>
+               </property>
+               <property name="clearButtonEnabled">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="groupContentnum">
+               <property name="styleSheet">
+                <string notr="true">font-size: 14px;  
+color: #BBBBBB; 
+padding-right:10px;</string>
+               </property>
+               <property name="text">
+                <string>0/20</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_Import_export">
+         <layout class="QGridLayout" name="page_Import_export_layout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>el_TextEdit</class>
+   <extends>QWidget</extends>
+   <header location="global">el_textedit.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_SummaryTag_ComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">ui_summarytag_combobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>group</tabstop>
+  <tabstop>Shortcutkey</tabstop>
+  <tabstop>addGroup</tabstop>
+  <tabstop>m_closeBtn</tabstop>
+  <tabstop>saveCommonWord</tabstop>
+  <tabstop>saveCommonWord_Group</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>saveCommonWord_Group</sender>
+   <signal>clicked()</signal>
+   <receiver>saveCommonWord</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>552</x>
+     <y>403</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>607</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>groupContent</sender>
+   <signal>returnPressed()</signal>
+   <receiver>saveCommonWord_Group</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>226</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>580</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

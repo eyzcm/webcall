@@ -1,0 +1,2287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ui\common\AddressLibrary_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\BaseJsCommHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\BaseMainWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\topmenu\EL_TopFunProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\FaceLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ai\JsAICommonHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\JsAssistantHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\js\JsChatRichEditHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\JsCommonHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\JsCommonfilesHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\JsNewChatHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\JsNewCustomerMonitorHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\JsNewCustomerMonitorSettingHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\JsNew_ColleagueDialogue_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\js\JsNoticeHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\js\JsPanelAIHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\js\JsPanelNewTabHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\js\JsPersonUserCenterHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\js\JsPersonWeixinHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\JsSendTableHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ai\UIAICommonWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIAllocationChatWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIAssistantWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIBackgroundColorWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UICardDataWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UICardItemData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIChatRecordWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIColorSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UICommonWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UICustomerMonitorWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIEachBotMainWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIFontWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\tools\UIJsManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UIPictureWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIRefreshButtonPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UISearchBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UISearchCBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UIStatusWidgetPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UITextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_AutoCloseChatTimePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_AuxiliaryFunPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIYL_BaseWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_CacheClearPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_CachePathPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_Centerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChangeStatusPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UIYL_ChatAndCardPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChatListColorPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChatListSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_ChatRecordWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChatSortRulePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChatStatusRulePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ChatToolBarPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_DialogueTrackingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_EditFunwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_FrequentPromptSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_GeneralSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_GroupBySitePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_HistoryRecordWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UIYL_KeywordPromptSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_LemonLovesBeautyPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MainWindowColorPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MainWindowSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainvisitorListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageBusinessModulePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessagePromptWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageSoundTypePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageToastPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageTypePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UIYL_MonitorHistoryRecordWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_VHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_PersonMainWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_PersonSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_PromptSettingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_RecentCardSearchListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_RecentChatTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UIYL_RichTextPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_ShowOperationPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_SoftwareUPRemindPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_StatusSettingPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_SysConfigWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\UIYL_TopMenuFunPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_TreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_ViewTrackWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UIYL_VisitorInfoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_WindowOperationPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_person_usercenterpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_person_weixinpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ai\UI_AICommonWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_AssistantWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UI_Btn_Enter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Btn_Skin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UI_ComboBox_PromptSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_CommPanel_Notice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\UI\UI_CommPanel_SendTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_CommonWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_CustomerMonitorSettingWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_CustomerMonitorStatisticsWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_CustomerMonitorWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\ListView\UI_DelegateItem_PromptSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\ListView\UI_ListView_PromptSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_MainTreeToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\ListView\UI_ModelItem_PromptSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_NoticeBubblePrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Pane_AI_Modify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Pane_AI_SelfBuild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Pane_NewTab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_AddCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_BrowseVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_BtnItemSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_CardSavePrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_ChangeSkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_DialogueVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_HotKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_LemonLovesBeauty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_ModifyCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_OutputLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_QuickCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Panel_RedEnvelopes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_RuleType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_Terminal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo_Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorSubsite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeViewItemDelegate_CommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeViewItemModel_CommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeView_CommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_VisitorMonitorWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_WebView_ShieldBackSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_ChatTransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_CommonWord_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UI_Widget_CustomHoverPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_Widget_Lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UI_Widget_MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Widget_Statistics_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UI_Widget_User_Panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UI_Wnd_ColleagueDialogue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Wnd_HotKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\UI_Wnd_MessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Wnd_ModifyCommonWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Wnd_OutputLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\YLJSHistoryRecordWidgetHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\YLJSVisitorInfoWidgetHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\js\YLJS_LemonLovesBeauty_EditPanel_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\js\YLJS_LemonLovesBeauty_RightPanel_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\YL_ManRobotRuleLeafNodeItemData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\Robot\YL_ManRobotRuleListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_announcement_details.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_announcement_details_jshelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_announcement_notice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_announcement_notice_jshelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\el_autoreply_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EL_BuiltInBrowser\el_builtinbrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\EL_CommonWord\el_commonword_jshelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\EL_CommonWord\el_commonword_popup_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\el_textedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\topmenu\el_toolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\topmenu\el_topfunarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\topmenu\el_topscrollarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\topmenu\el_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\jsTransitDialogueHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\jsemotionhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\jsnewtrackhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\js\jsshieldvisitorhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\ui_sendimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_addtag_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\ui_summarytag_combobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\ui_summarytag_combobox_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_pushbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\ui_upgrade_reminder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\uichatsummarywnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\uiemotionwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\uiiewnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\uilockwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\uimenubutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\uinotifymessagebox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\uiradioitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\uishieldvisitorwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\uitransitdialoguewnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Common\uiunlockwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\tools\uiwebviewpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\uiyl_arc_progressbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\utilsviewhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service\viewuiservice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webcall_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_card_jshelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_replycomments_jshelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_video_jshelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\UI_Pane_ThirdTab.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chatui\ui\js\JsPanelThirdTabHelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\UIYL_MessageFlashTypePanel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_cloudlogin_jshelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popui\ui\announcement\el_common_popup_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingui\ui\js\jscustomercontactwayhelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\UI_WebWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\JsWebWidgetHelp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assistui\ui\UI_Wnd_OutputLog2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ui\common\AddressLibrary_Helper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\BaseJsCommHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\BaseMainWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\EL_TopFunProcess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\FaceLabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\ai\JsAICommonHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsAssistantHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\js\JsChatRichEditHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\JsCommonHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsCommonfilesHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\JsNewChatHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsNewCustomerMonitorHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsNewCustomerMonitorSettingHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\JsNew_ColleagueDialogue_Helper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\js\JsNoticeHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\JsPanelAIHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\js\JsPanelNewTabHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\js\JsPersonUserCenterHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\js\JsPersonWeixinHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsSendTableHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\ai\UIAICommonWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIAllocationChatWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIAssistantWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIBackgroundColorWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UICardDataWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UICardItemData.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIChatRecordWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIColorSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UICommonWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UICustomerMonitorWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIEachBotMainWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIFontWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\tools\UIJsManage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="UIObserverImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="ui\Common\UIPictureWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIRefreshButtonPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UISearchBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UISearchCBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UIStatusWidgetPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UITextEdit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_AutoCloseChatTimePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_AuxiliaryFunPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\UIYL_BaseWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_CacheClearPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_CachePathPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_Centerwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChangeStatusPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_ChatAndCardPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatListColorPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatListSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_ChatRecordWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatSortRulePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatStatusRulePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatToolBarPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_DialogueTrackingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_EditFunwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_FrequentPromptSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_GeneralSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_GroupBySitePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_HistoryRecordWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_KeywordPromptSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_LemonLovesBeautyPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MainWindowColorPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MainWindowSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainvisitorListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageBusinessModulePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessagePromptWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageSoundTypePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageToastPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageTypePanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIYL_MonitorHistoryRecordWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Delegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Model.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_VHeader.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PersonMainWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PersonSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PromptSettingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentCardSearchListWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentChatTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UIYL_RichTextPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ShowOperationPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_SoftwareUPRemindPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_StatusSettingPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_SysConfigWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\UIYL_TopMenuFunPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_TreeWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_ViewTrackWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_VisitorInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_WindowOperationPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_person_usercenterpanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_person_weixinpanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\ai\UI_AICommonWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_AssistantWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Btn_Enter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Btn_Skin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UI_ComboBox_PromptSound.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_CommPanel_Notice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\UI\UI_CommPanel_SendTable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_CommonWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorSettingWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorStatisticsWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_DelegateItem_PromptSound.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ListView_PromptSound.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_MainTreeToolTip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ModelItem_PromptSound.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_NoticeBubblePrompt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_AI_Modify.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_AI_SelfBuild.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_NewTab.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_AddCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_BrowseVisitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_BtnItemSetting.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_CardSavePrompt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_ChangeSkin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_DialogueVisitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_HotKey.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_LemonLovesBeauty.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_ModifyCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_OutputLog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_QuickCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_RedEnvelopes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_RuleType.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_Terminal.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorChannel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorEngine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo_Group.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorSubsite.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeViewItemDelegate_CommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeViewItemModel_CommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeView_CommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_VisitorMonitorWnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_WebView_ShieldBackSpace.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_ChatTransfer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_CommonWord_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Widget_CustomHoverPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_Widget_Lock.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\UI_Widget_MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_Statistics_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\UI_Widget_User_Panel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Wnd_ColleagueDialogue.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_HotKey.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_Wnd_MessageBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_ModifyCommonWord.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_OutputLog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\YLJSHistoryRecordWidgetHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\YLJSVisitorInfoWidgetHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\YLJS_LemonLovesBeauty_EditPanel_Helper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\YLJS_LemonLovesBeauty_RightPanel_Helper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\YL_ManRobotRuleLeafNodeItemData.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="assistui\ui\Robot\YL_ManRobotRuleListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\topmenu\el_MED_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="popui\ui\announcement\el_announcement_details.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_details_jshelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_notice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_notice_jshelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\el_autoreply_item.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EL_BuiltInBrowser\el_builtinbrowser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\EL_CommonWord\el_commonword_jshelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\EL_CommonWord\el_commonword_popup_ui.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\el_textedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_toolbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_topfunarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_topscrollarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsTransitDialogueHelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsemotionhelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\jsnewtrackhelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsshieldvisitorhelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <CustomBuild Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <QtMoc Include="popui\ui\ui_sendimage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_addtag_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\ui_summarytag_combobox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\ui_summarytag_combobox_widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="ui\common\summarytag\content\ui_summarytag_listviewitem_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listviewitem_delegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listviewitem_model.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_pushbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ui_upgrade_reminder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\uichatsummarywnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\uiemotionwnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\uiiewnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\uilockwnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\uimenubutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\uinotifymessagebox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\uiradioitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\uishieldvisitorwnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\uitransitdialoguewnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\Common\uiunlockwnd.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\tools\uiwebviewpool.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\uiyl_arc_progressbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\utilsviewhelper.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="service\viewuiservice.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="webcall_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webcall_view_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_card_jshelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_replycomments_jshelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_video_jshelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\JsPanelThirdTabHelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageFlashTypePanel.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_cloudlogin_jshelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_common_popup_ui.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Pane_ThirdTab.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settingui\ui\js\jscustomercontactwayhelper.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\JsWebWidgetHelp.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\common\UI_WebWidget.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_OutputLog2.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include="..\..\..\..\buildvc\$(ProjectName)\debug\moc_predefs.h.cbt" />
+    <CustomBuild Include="..\..\..\..\buildvc\$(ProjectName)\release\moc_predefs.h.cbt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ui\ai\UIAICommonWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIAllocationChatWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIAssistantWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIBackgroundColorWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UICardDataWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UICardItemData.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIChatRecordWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIColorSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UICommonWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UICustomerMonitorWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIEachBotMainWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIFontWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UIPictureWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIRefreshButtonPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UIStatusWidgetPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_AutoCloseChatTimePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_AuxiliaryFunPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_CacheClearPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_CachePathPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_Centerwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChangeStatusPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_ChatAndCardPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatListColorPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatListSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_ChatRecordWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatSortRulePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatStatusRulePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatToolBarPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_DialogueTrackingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_EditFunwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_FrequentPromptSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_GeneralSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_GroupBySitePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_HistoryRecordWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_KeywordPromptSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_LemonLovesBeautyPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MainWindowColorPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MainWindowSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageBusinessModulePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessagePromptWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageSoundTypePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageToastPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageTypePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UIYL_MonitorHistoryRecordWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PersonMainWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PersonSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PromptSettingWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentCardSearchListWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentChatTreeWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UIYL_RichTextPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ShowOperationPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_SoftwareUPRemindPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_StatusSettingPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_SysConfigWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\common\UIYL_TopMenuFunPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_TreeWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_ViewTrackWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_VisitorInfoWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_WindowOperationPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_person_usercenterpanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_person_weixinpanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\ai\UI_AICommonWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_AssistantWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Btn_Enter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UI_CommPanel_Notice.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\UI\UI_CommPanel_SendTable.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UI_CommonWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorSettingWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorStatisticsWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_MainTreeToolTip.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UI_NoticeBubblePrompt.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_AI_Modify.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_AI_SelfBuild.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_NewTab.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_AddCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_BrowseVisitor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_BtnItemSetting.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_CardSavePrompt.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_ChangeSkin.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_DialogueVisitor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_HotKey.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_LemonLovesBeauty.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_ModifyCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_OutputLog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_QuickCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_RedEnvelopes.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_RuleType.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_Terminal.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorChannel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorEngine.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo_Group.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorSubsite.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\SummaryTag\Content\UI_SummaryTag_AddTag_Widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\SummaryTag\UI_SummaryTag_ComboBox_Widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_VisitorMonitorWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_ChatTransfer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_CommonWord_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Widget_CustomHoverPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UI_Widget_Lock.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\UI_Widget_MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_Statistics_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\UI_Widget_User_Panel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Wnd_ColleagueDialogue.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_HotKey.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\UI_Wnd_MessageBox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_ModifyCommonWord.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_OutputLog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\common\baseMainWnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\announcement\el_announcement_details.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\announcement\el_announcement_notice.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\el_autoreply_item.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EL_BuiltInBrowser\el_builtinbrowser.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\EL_CommonWord\el_commonword_popup_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\el_textedit.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_toolbutton.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_topfunarea.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_topscrollarea.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_widget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\ui_sendimage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\ui_upgrade_reminder.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\uichatsummarywnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\uiemotionwnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\common\uiiewnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\uilockwnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\uimenubutton.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\common\uinotifymessagebox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\uiradioitem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\uishieldvisitorwnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\uitransitdialoguewnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\Common\uiunlockwnd.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\uiyl_arc_progressbar.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageFlashTypePanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Pane_ThirdTab.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popui\ui\announcement\el_common_popup_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\common\UI_WebWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_OutputLog2.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Resources\EasyLiaoClient.rc" />
+  </ItemGroup>
+</Project>

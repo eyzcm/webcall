@@ -1,0 +1,12 @@
+#ifndef WEBCALL_VIEW_GLOBAL_H
+#define WEBCALL_VIEW_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(WEBCALL_VIEW_LIBRARY)
+#  define WEBCALL_VIEW_EXPORT Q_DECL_EXPORT
+#else
+#  define WEBCALL_VIEW_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // WEBCALL_VIEW_GLOBAL_H

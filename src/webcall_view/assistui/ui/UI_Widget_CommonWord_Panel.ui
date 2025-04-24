@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui version="4.0">
+ <class>UI_Widget_CommonWord_PanelClass</class>
+ <widget class="QWidget" name="UI_Widget_CommonWord_PanelClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>常用语</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#UI_Widget_CommonWord_PanelClass
+{
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_bg
+{
+border:0px;
+background-color: rgba(255, 255, 255, 255);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin" stdset="0">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_commonWord" native="true">
+        <property name="styleSheet">
+         <string notr="true">QWidget#widget_commonWord
+{
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_search_rect" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_search_rect
+{ 
+	background-color: rgb(255, 255, 255);
+border:1px groove #dddddd;
+border-top-left-radius:13px;
+border-top-right-radius:13px;
+border-bottom-left-radius:13px;
+border-bottom-right-radius:13px;  
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>5</number>
+            </property>
+            <property name="topMargin">
+             <number>3</number>
+            </property>
+            <property name="rightMargin">
+             <number>5</number>
+            </property>
+            <property name="bottomMargin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QToolButton" name="findtoolButton">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                <normaloff>:/Resources/SVG/commonWord_find.svg</normaloff>:/Resources/SVG/commonWord_find.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>14</width>
+                <height>14</height>
+               </size>
+              </property>
+              <property name="autoRaise">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="edit_search">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>26</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>26</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit#edit_search
+{  
+    font: 12px &quot;微软雅黑&quot;;
+    color:#666666; 
+	background-color: rgba(0, 0, 0, 0);
+}</string>
+              </property>
+              <property name="frame">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string>请输入要查询的常用语</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_label" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_label
+{
+	background-color: rgb(255, 255, 255); 
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>15</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>15</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_label_bg" native="true">
+              <property name="styleSheet">
+               <string notr="true">QWidget#widget_label_bg
+{
+	background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #E4E7ED;
+}</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>40</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="personalCommonword">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{ 
+     border-top: 0px solid #E5E5E5;
+     border-left:0px solid #E5E5E5;
+     position: absolute;
+     font-size: 14px;  
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton::checked
+{   
+	background-color: rgba(255, 255, 255, 0);
+    color: #409EFF; 
+    border-bottom: 2px solid #2080F7;
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>个人</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="companyCommonword">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::RightToLeft</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{ 
+     border-top: 0px solid #E5E5E5;
+     border-left:0px solid #E5E5E5;
+     position: absolute;
+     font-size: 14px;  
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton::checked
+{   
+	background-color: rgba(255, 255, 255, 0);
+    color: #409EFF; 
+    border-bottom: 2px solid #2080F7;
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>公司</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                   <normaloff>:/Resources/SVG/commonWord/commonWord_arrow_open.svg</normaloff>:/Resources/SVG/commonWord/commonWord_arrow_open.svg</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>14</width>
+                   <height>14</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>223</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tbtn_showt">
+                 <property name="minimumSize">
+                  <size>
+                   <width>24</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>24</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>设置常用语展示方式</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{ 
+     border-top: 0px solid #E5E5E5;
+     border-left:0px solid #E5E5E5;
+     position: absolute; 
+	 background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton::hover
+{   
+     border-radius: 4px;
+	 background-color: #EDEEEE; 
+} 
+QPushButton:pressed
+{
+     border-radius: 4px;
+	 background-color: #EDEEEE; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                   <normaloff>:/Resources/SVG/commonWord/commonWord_menu_show.svg</normaloff>:/Resources/SVG/commonWord/commonWord_menu_show.svg</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>24</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="page_default">
+            <property name="styleSheet">
+             <string notr="true">QWidget#page_default
+{
+	background-color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QScrollArea" name="scrollArea">
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>425</width>
+                  <height>459</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QWidget#scrollAreaWidgetContents
+{
+	background-color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <item>
+                  <spacer name="verticalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_7">
+                   <item>
+                    <spacer name="horizontalSpacer_5">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label">
+                     <property name="minimumSize">
+                      <size>
+                       <width>200</width>
+                       <height>100</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>200</width>
+                       <height>100</height>
+                      </size>
+                     </property>
+                     <property name="pixmap">
+                      <pixmap resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">:/Resources/SVG/commonWord/commonWord_seat.svg</pixmap>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_6">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_6">
+                   <item>
+                    <spacer name="horizontalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="addCommonWord">
+                     <property name="minimumSize">
+                      <size>
+                       <width>128</width>
+                       <height>42</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>128</width>
+                       <height>42</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background: #409EFF;
+border-radius: 21px; 
+font-size: 14px;  
+color: #FFFFFF; </string>
+                     </property>
+                     <property name="text">
+                      <string>添加常用语</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_4">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <spacer name="horizontalSpacer_7">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="batchImport">
+                     <property name="minimumSize">
+                      <size>
+                       <width>128</width>
+                       <height>42</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>128</width>
+                       <height>42</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background: #FFFFFF;
+border-radius: 21px; 
+font-size: 14px;  
+color: #409EFF;   
+border: 1px solid #409EFF;</string>
+                     </property>
+                     <property name="text">
+                      <string>批量导入</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_8">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_treeView">
+            <property name="styleSheet">
+             <string notr="true">QWidget#page_treeView
+{
+	background-color: rgba(255, 255, 255, 0); 
+    image: url(:/YL/Resources/YL/MainTree/icon_searchResultNull.png);
+}</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UI_TreeView_CommonWord" name="treeView">
+               <property name="acceptDrops">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QTreeView
+{
+border:0px solid gray;
+color:black;
+outline:none;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QTreeView::Item{border:0px solid gray; height:25px; }
+QTreeView::Item:hover{background-color: #f5f7fa; }
+QTreeView::item:selected{border:0px solid #ffffff00; background-color: #f5f7fa; }
+QTreeView::item:selected:!active{border-width:0px;  background-color: #f5f7fa;   }
+
+/* 有兄弟节点，但是兄弟节点不相邻 */
+QTreeView::branch:has-siblings:!adjoins-item { 
+	border-image: none;  
+	image: none;
+}
+
+/* 有兄弟节点且兄弟节点相邻 */
+QTreeView::branch:has-siblings:adjoins-item {
+	border-image: none;   
+	image: none;
+}
+/* 叶子节点 */
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+	border-image: none;
+	image: none;
+}
+
+/* 有子节点且收起的情况 */
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings {
+	border-image: none;
+	image: none;
+}
+/* 有子节点且展开的情况 */
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings {	
+	border-image: none;
+	image: none;
+}
+</string>
+               </property>
+               <property name="dragEnabled">
+                <bool>false</bool>
+               </property>
+               <property name="dragDropMode">
+                <enum>QAbstractItemView::NoDragDrop</enum>
+               </property>
+               <property name="defaultDropAction">
+                <enum>Qt::MoveAction</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_edit" native="true">
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_edit
+{
+	background-color: rgba(234, 245, 254, 0);
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="margin" stdset="0">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QWidget#widget
+{
+	background-color: rgba(255, 255, 255, 240);
+}</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>10</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="cbox_allCheck">
+                 <property name="styleSheet">
+                  <string notr="true">font-size: 14px;
+color: #344563;
+line-height: 20px;</string>
+                 </property>
+                 <property name="text">
+                  <string>全选</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QToolButton" name="tbtn_cancel">
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>60</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QToolButton
+{
+color: #909CA8;
+border-radius: 4px;
+border: 1px solid #E3EAF3;
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>取消</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="tbtn_delete">
+                 <property name="enabled">
+                  <bool>true</bool>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>60</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QToolButton
+{
+font-size: 12px; 
+color: #FFFFFF;
+background: #409EFF;
+border-radius: 4px;
+border: 0px solid #E3EAF3;
+} 
+QToolButton::!enabled
+{   
+	background: #A0CFFF; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>删除</string>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>UI_TreeView_CommonWord</class>
+   <extends>QTreeView</extends>
+   <header location="global">ui_treeview_commonword.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

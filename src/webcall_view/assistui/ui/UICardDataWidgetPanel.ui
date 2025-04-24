@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UICardDataWidgetPanel</class>
+ <widget class="QWidget" name="UICardDataWidgetPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>347</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>名片数据</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin" stdset="0">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QWidget" name="widget_18" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="margin" stdset="0">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="margin" stdset="0">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QScrollArea" name="scrollArea">
+            <property name="styleSheet">
+             <string notr="true">QScrollArea
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QWidget#scrollAreaWidgetContents
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}</string>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>347</width>
+               <height>397</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="margin" stdset="0">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="Summarywidget" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>36</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <property name="spacing">
+                  <number>3</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>10</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>10</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="Summarytlabel">
+                   <property name="minimumSize">
+                    <size>
+                     <width>65</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="lineWidth">
+                    <number>1</number>
+                   </property>
+                   <property name="text">
+                    <string>总结标签</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="Echowidget" native="true">
+                   <layout class="QHBoxLayout" name="horizontalLayout">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QToolButton" name="Echocolour">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>14</width>
+                        <height>14</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>14</width>
+                        <height>14</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background: #6AD0FF;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="autoRaise">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QToolButton" name="Echoname">
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+                      </property>
+                      <property name="text">
+                       <string>回显总结标签</string>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                        <normaloff>:/Resources/SVG/composing.svg</normaloff>:/Resources/SVG/composing.svg</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>18</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                      <property name="toolButtonStyle">
+                       <enum>Qt::ToolButtonTextBesideIcon</enum>
+                      </property>
+                      <property name="autoRaise">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="EchoSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Expanding</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="choicewidget" native="true">
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QToolButton" name="SummaryselecttoolButton">
+                      <property name="styleSheet">
+                       <string notr="true">color: #409EFF;
+background-color: rgba(255, 255, 255, 0);</string>
+                      </property>
+                      <property name="text">
+                       <string>点击选择</string>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                        <normaloff>:/Resources/SVG/composing-blue.svg</normaloff>:/Resources/SVG/composing-blue.svg</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>18</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                      <property name="toolButtonStyle">
+                       <enum>Qt::ToolButtonTextBesideIcon</enum>
+                      </property>
+                      <property name="autoRaise">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="EchoSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="m_visitorColsVerticalLayout">
+                <property name="topMargin">
+                 <number>6</number>
+                </property>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>10000</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_47" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>80</height>
+          </size>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_53">
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="margin" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QWidget" name="widget_49" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_49" stretch="0,0,0,0,0">
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QToolButton" name="m_editBtn">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>60</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QToolButton{
+	border-image: url(:/Resources/Ws/btn_setting_normal.png);
+	color: #ffffff;	
+}
+QToolButton:hover{	
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;	
+}
+QToolButton:pressed{
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;
+}
+</string>
+               </property>
+               <property name="text">
+                <string>字段设置</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="m_saveBtn">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>60</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QToolButton{
+	border-image: url(:/Resources/Ws/btn_setting_normal.png);
+	color: #ffffff;	
+}
+QToolButton:hover{	
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;	
+}
+QToolButton:pressed{
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;
+}
+</string>
+               </property>
+               <property name="text">
+                <string>保存名片</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="m_newCardSaveBtn">
+               <property name="minimumSize">
+                <size>
+                 <width>90</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QToolButton{
+	border-image: url(:/Resources/Ws/btn_setting_normal.png);
+	color: #ffffff;	
+}
+QToolButton:hover{	
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;	
+}
+QToolButton:pressed{
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;
+}
+</string>
+               </property>
+               <property name="text">
+                <string>新建名片保存</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_28">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>5</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QWidget" name="widget_50" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_50_1">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="m_autosavecardCBox">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>26</height>
+                </size>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QCheckBox{color:#606266}
+                   /*checkbox样式设置*/
+                   /*未选中*/   
+                  QCheckBox::indicator {
+                  width: 30px;
+                  height: 22px;
+                  }
+                   QCheckBox::indicator::unchecked {
+                   image: url(:/Resources/SVG/checkbox_unchecked.svg);
+                   }
+                   /*选中*/
+                   QCheckBox::indicator::checked {
+                   image: url(:/Resources/SVG/checkbox_checked.svg);
+                   } 
+                 </string>
+               </property>
+               <property name="text">
+                <string>自动上报名片</string>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>18</width>
+                 <height>18</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="m_extendWdiget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="margin" stdset="0">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="m_extendColsVerticalLayout"/>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_48" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_54">
+            <property name="margin" stdset="0">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_50" stretch="0,0,0">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <item>
+               <spacer name="horizontalSpacer_29">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QToolButton" name="m_searchBtn">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>26</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>26</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QToolButton{
+	border-image: url(:/Resources/Ws/btn_setting_normal.png);
+	color: #ffffff;	
+}
+QToolButton:hover{	
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;	
+}
+QToolButton:pressed{
+	border-image: url(:/Resources/Ws/btn_setting_over.png);
+	color: #ffffff;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>查询</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_30">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>5</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Echocolour</sender>
+   <signal>clicked()</signal>
+   <receiver>SummaryselecttoolButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>307</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Echoname</sender>
+   <signal>clicked()</signal>
+   <receiver>SummaryselecttoolButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>144</x>
+     <y>27</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>28</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

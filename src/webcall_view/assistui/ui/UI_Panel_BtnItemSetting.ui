@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UI_Panel_BtnItemSetting</class>
+ <widget class="QWidget" name="UI_Panel_BtnItemSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>34</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+    <normaloff>:/Resources/Image/easy.ico</normaloff>:/Resources/Image/easy.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="placeholderText">
+        <string>请输入按钮文案，最多10个字符</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox
+{
+border:1px solid rgb(221, 221, 221);
+font: 12px &quot;微软雅黑&quot;;
+color: #666666;
+padding-left:6px;
+}
+
+QComboBox::drop-down
+{
+width: 20px;
+border: 0px;
+}
+
+QComboBox::down-arrow
+{
+width:20px;
+height:30px;
+image: url(:/Resources/Image/SummaryTag_DropDown_Arrow.png);
+}
+
+QComboBox QAbstractItemView
+{
+border:1px solid rgb(221, 221, 221);
+outline: 0;
+font: 12px &quot;微软雅黑&quot;;
+color: #666666;
+margin-top:1px;
+background-color: rgb(255, 255, 255);
+}
+
+QComboBox QAbstractItemView::item
+{
+height:26px;
+}
+
+QComboBox QAbstractItemView::item:hover
+{
+background-color: #dde0e7;
+}
+ 
+QComboBox QAbstractItemView::item:selected
+{
+background-color: #dde0e7;
+}</string>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/1.png</normaloff>:/YL/Resources/YL/CommonWord/1.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/2.png</normaloff>:/YL/Resources/YL/CommonWord/2.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/3.png</normaloff>:/YL/Resources/YL/CommonWord/3.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/4.png</normaloff>:/YL/Resources/YL/CommonWord/4.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/5.png</normaloff>:/YL/Resources/YL/CommonWord/5.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/6.png</normaloff>:/YL/Resources/YL/CommonWord/6.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/7.png</normaloff>:/YL/Resources/YL/CommonWord/7.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/8.png</normaloff>:/YL/Resources/YL/CommonWord/8.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/9.png</normaloff>:/YL/Resources/YL/CommonWord/9.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/10.png</normaloff>:/YL/Resources/YL/CommonWord/10.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/11.png</normaloff>:/YL/Resources/YL/CommonWord/11.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/12.png</normaloff>:/YL/Resources/YL/CommonWord/12.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/13.png</normaloff>:/YL/Resources/YL/CommonWord/13.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/14.png</normaloff>:/YL/Resources/YL/CommonWord/14.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/YL/Resources/YL/CommonWord/15.png</normaloff>:/YL/Resources/YL/CommonWord/15.png</iconset>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="m_removeBtn">
+       <property name="maximumSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton{
+	border-image: url(:/YL/Resources/YL/CommonWord/btn_personalquick_delete.png);
+}
+QToolButton:hover{
+	border-image: url(:/YL/Resources/YL/CommonWord/btn_personalquick_delete.png);
+}
+QToolButton:pressed{
+	border-image: url(:/YL/Resources/YL/CommonWord/btn_personalquick_delete.png);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

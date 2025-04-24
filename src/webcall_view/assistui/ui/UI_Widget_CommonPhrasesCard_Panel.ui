@@ -1,0 +1,1389 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UI_Widget_CommonPhrasesCard_PanelClass</class>
+ <widget class="QWidget" name="UI_Widget_CommonPhrasesCard_PanelClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>575</height>
+   </rect>
+  </property>
+  
+  <property name="windowTitle">
+   <string>常用语和名片</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#UI_Widget_CommonPhrasesCard_PanelClass
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_bg
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin" stdset="0">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_commonWordCard_rect" native="true">
+        <property name="styleSheet">
+         <string notr="true">
+              QWidget#widget_commonWordCard_rect
+              {
+              background-color: rgba(255, 255, 255, 0);
+              }
+            </string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_commonWordCard_rect_33" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>36</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>36</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+                 QWidget#widget_commonWordCard_rect_33
+                 {
+                 background-color: rgba(255, 255, 255, 0);
+                 }
+               </string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_33">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="margin" stdset="0">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="m_left_scroll" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>33</width>
+                <height>36</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>33</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+                     QWidget
+                     {
+                     background-color: rgba(255, 255, 255, 204);
+                     }
+                   </string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_4">
+               <property name="margin" stdset="0">
+                <number>0</number>
+               </property>
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="m_left_btn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>28</width>
+                   <height>36</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#m_left_btn{
+  border:0px;
+        image: url(:/YL/Resources/YL/Card/btn_left_move.png);
+        background-color: rgba(255, 255, 255,0);
+}
+QPushButton#m_left_btn:hover{
+        image: url(:/YL/Resources/YL/Card/btn_left_move_over.png);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QScrollArea" name="scrollArea">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>36</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>36</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+                       QScrollArea
+                       {
+                       border:0px;
+                       background-color: rgba(255, 255, 255, 0);
+
+                       }
+
+
+
+
+
+                     </string>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="widgetResizable">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="widget_switchCommonWordCard">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>573</width>
+                 <height>36</height>
+                </rect>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+                         QWidget#widget_switchCommonWordCard
+                         {
+                         background-color: rgba(255, 255, 255, 0);
+                         }
+                       </string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="margin" stdset="0">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="SwitchButton" name="btn_commonWord">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>常用语</string>
+                  </property>
+                  <property name="statusTip">
+                   <string/>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>常 用 语</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_card">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>访客名片</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>访客名片</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_Common_files">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>常用文件</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>常用文件</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_ai_build">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>自主搭建</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>自主搭建</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_ai_modify">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>话术优化</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>话术优化</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_lemonLovesBeauty">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>柠檬爱美</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string>柠檬爱美</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="SwitchButton" name="btn_newTab">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>访客名片</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                               QToolButton{
+                               border-image: url(:/Resources/Ws/btn56x36_normal.png);
+                               color: #FF000000;
+                               }
+                               QToolButton:hover{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                               QToolButton:pressed{
+                               border-image: url(:/Resources/Ws/btn56x36_over.png);
+                               color:#FF000000;
+                               }
+                             </string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget" native="true">
+                  <property name="minimumSize">
+                   <size>
+                    <width>13</width>
+                    <height>36</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+                       QWidget
+                       {
+                       background-color: rgba(255, 255, 255, 204);
+                       }
+                     </string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="m_right_scroll" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>33</width>
+                <height>36</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>28</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+                     QWidget
+                     {
+                     background-color: rgba(255, 255, 255, 204);
+                     }
+                     </string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_44">
+               <property name="margin" stdset="0">
+                <number>0</number>
+               </property>
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="m_right_btn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>33</width>
+                   <height>36</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#m_right_btn{
+  border:0px;
+        image: url(:/YL/Resources/YL/Card/btn_right_move.png);
+        background-color: rgba(255, 255, 255,0);
+}
+QPushButton#m_right_btn:hover{
+        image: url(:/YL/Resources/YL/Card/btn_right_move_over.png);
+
+}
+
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="styleSheet">
+            <string notr="true">QStackedWidget
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QWidget#widget_card_rect
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QWidget#widget_commonWord_rect
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}
+</string>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="widget_commonWord_rect">
+            <property name="styleSheet">
+             <string notr="true">QWidget#widget_commonWord_rect
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_14">
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UI_Widget_CommonWord_Panel" name="widget_commonWord" native="true">
+               <property name="styleSheet">
+                <string notr="true">QWidget#widget_commonWord
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_card_rect">
+            <property name="styleSheet">
+             <string notr="true">QWidget#widget_card_rect
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_13">
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UICardDataWidgetPanel" name="widget_card" native="true">
+               <property name="styleSheet">
+                <string notr="true">QWidget#widget_card
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_Common_files_rect">
+            <layout class="QGridLayout" name="widget_Common_files_rect_gridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_lemonLovesBeauty_rect">
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="UI_Panel_LemonLovesBeauty" name="widget_lemonLovesBeauty" native="true">
+               <property name="styleSheet">
+                <string notr="true">QWidget#widget_lemonLovesBeauty
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_newTab_rect">
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UI_Pane_NewTab" name="widget_NewTab" native="true">
+               <property name="styleSheet">
+                <string notr="true">QWidget#widget_lemonLovesBeauty
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_selfBuild_rect">
+            <layout class="QGridLayout" name="gridLayout_2">
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UI_Pane_AI_SelfBuild" name="widget_selfBuildTab" native="true">
+               <property name="styleSheet">
+                <string notr="true">
+                        QWidget#widget_lemonLovesBeauty
+                        {
+                        background-color: rgba(255, 255, 255, 0);
+                        }
+                      </string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="widget_aiModify_rect">
+            <layout class="QGridLayout" name="gridLayout_3">
+             <property name="margin" stdset="0">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="UI_Pane_AI_Modify" name="widget_AiModifyTab" native="true">
+               <property name="styleSheet">
+                <string notr="true">
+                        QWidget#widget_lemonLovesBeauty
+                        {
+                        background-color: rgba(255, 255, 255, 0);
+                        }
+                      </string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="PersonalQuickCommonWordWidget" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>197</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget#PersonalQuickCommonWordWidget
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_3
+{
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+background-color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>5</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="minimumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/YL/Resources/YL/CommonWord/personalquick_icon.png);
+
+
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="styleSheet">
+               <string notr="true">color:#000000;
+font:12px;</string>
+              </property>
+              <property name="text">
+               <string>个人常用快捷咨询</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_Add">
+              <property name="minimumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton
+{
+        border-image: url(:/YL/Resources/YL/CommonWord/btn_personalquick_add_item.png);
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_expand">
+              <property name="minimumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton
+{
+        border-image: url(:/YL/Resources/YL/CommonWord/btn_quickCommonWord_pickup.png);
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="UI_Panel_PersonalQuickCommonWord" name="m_personalQuickCommonWordList" native="true">
+           <property name="styleSheet">
+            <string notr="true">QWidget#m_personalQuickCommonWordList
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_quickCommonWord_rect" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>197</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget#widget_quickCommonWord_rect
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_2
+{
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+background-color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>5</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="minimumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/YL/Resources/YL/CommonWord/icon_quickCommonWord.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">color:#000000;
+font:12px;</string>
+              </property>
+              <property name="text">
+               <string>快捷常用语</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_telescopic">
+              <property name="minimumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>10</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton
+{
+        border-image: url(:/YL/Resources/YL/CommonWord/btn_quickCommonWord_pickup.png);
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="UI_Panel_QuickCommonWord" name="widget_quickCommonWord" native="true">
+           <property name="styleSheet">
+            <string notr="true">QWidget#widget_quickCommonWord
+{
+        background-color: rgba(255, 255, 255, 0);
+}</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_knowledgeBase_rect" native="true">
+        <property name="styleSheet">
+         <string notr="true">QWidget#widget_knowledgeBase_rect
+{
+        background-color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="m_robotWidgetPanel" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QWidget#m_robotWidgetPanel
+{
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+background-color: rgb(255, 255, 255);
+}</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_5" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>22</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QWidget#widget_5
+{
+border:1px solid rgb(238, 238, 238);
+}</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>2</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>2</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="widget_18" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">image: url(:/Resources/Image/search.png);</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="m_searchrebotEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string/>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border: 0px;
+color: #333333;</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>请输入关键字</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="m_rebotChecked">
+              <property name="minimumSize">
+               <size>
+                <width>85</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>85</width>
+                <height>20</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: #333333;</string>
+              </property>
+              <property name="text">
+               <string>启用知识库</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="m_rebotPanel" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="margin" stdset="0">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="m_rebotList">
+              <property name="styleSheet">
+               <string notr="true">border: 0px;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QToolButton</extends>
+   <header location="global">switchbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UICardDataWidgetPanel</class>
+   <extends>QWidget</extends>
+   <header>uicarddatawidgetpanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Widget_CommonWord_Panel</class>
+   <extends>QWidget</extends>
+   <header location="global">ui_widget_commonword_panel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Panel_QuickCommonWord</class>
+   <extends>QWidget</extends>
+   <header location="global">ui_panel_quickcommonword.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Panel_LemonLovesBeauty</class>
+   <extends>QWidget</extends>
+   <header location="global">ui_panel_lemonlovesbeauty.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Panel_PersonalQuickCommonWord</class>
+   <extends>QWidget</extends>
+   <header location="global">UI_Panel_PersonalQuickCommonWord.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Pane_AI_Modify</class>
+   <extends>QWidget</extends>
+   <header>UI_Pane_AI_Modify.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Pane_AI_SelfBuild</class>
+   <extends>QWidget</extends>
+   <header>UI_Pane_AI_SelfBuild.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_Pane_NewTab</class>
+   <extends>QWidget</extends>
+   <header>ui_pane_newtab.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

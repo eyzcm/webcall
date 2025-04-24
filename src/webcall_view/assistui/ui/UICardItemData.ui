@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UICardItemData</class>
+ <widget class="QWidget" name="UICardItemData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>26</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>26</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>26</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>240</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>名片条目数据</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#UICardItemData{
+	background-color: rgba(255, 255, 255, 255);
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>1</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>75</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>3</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="3">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="2">
+       <widget class="QToolButton" name="m_toolButton">
+        <property name="minimumSize">
+         <size>
+          <width>12</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>12</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton{
+	border-image: url(:/CommIcon/Resources/CommIcon/tip_info_normal.png);
+}
+QToolButton:hover{
+	border-image: url(:/CommIcon/Resources/CommIcon/tip_info_hover.png);
+}
+QToolButton:pressed{
+	border-image: url(:/CommIcon/Resources/CommIcon/tip_info_hover.png);
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="m_label"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="horizontalSpacing">
+        <number>8</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="m_lineEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {border:1px solid #dddddd;color:#666666;}</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="notes_label">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(217, 236, 255);
+color: rgb(64, 158, 255);
+border-radius: 4px;
+border: 1px solid #D9ECFF;</string>
+         </property>
+         <property name="text">
+          <string>未检测</string>
+         </property>
+         <property name="margin">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="UI_CardItem_ComboBox" name="m_comboBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox 
+{
+	border:1px solid #dddddd;
+	background-color: rgb(255, 255, 255);
+	color:#666666;
+	padding-left:10px;
+}
+
+QComboBox::drop-down
+{
+	width: 18px;
+	border-left: 0px solid rgb(0, 170, 255);
+} 
+
+QComboBox::down-arrow
+{
+	border-image: url(:/Resources/Ws/cbox_arrow_btn.png);
+	height:26px;
+	width:18px;
+}
+
+QComboBox QAbstractItemView
+{
+	outline: none;
+	border: 0px; 
+	color:#666666;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: #279af2;
+	padding:10px,10px,10px,10px;
+}
+
+QComboBox QAbstractItemView:item
+{
+	height: 28px;
+	color:#666666;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="m_textEdit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTextEdit {border:1px solid #dddddd;color:#666666;}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_4">
+      <layout class="QGridLayout" name="gridLayout_5">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QDateTimeEdit" name="m_dateTimeEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateTimeEdit{
+border:1px solid #dddddd;color:#666666;
+}</string>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2021</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+         <property name="timeSpec">
+          <enum>Qt::LocalTime</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_5">
+      <layout class="QGridLayout" name="gridLayout_6">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="UISearchCBox" name="m_searchCBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {border:1px solid #dddddd;color:#666666;}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_6">
+      <layout class="QGridLayout" name="gridLayout_13">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="UI_SummaryTag_ComboBox_Widget" name="comboBox_tag" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_7">
+      <layout class="QGridLayout" name="gridLayout_7">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="m_ylCheckBox">
+         <property name="styleSheet">
+          <string notr="true">
+                  /*checkbox样式设置*/
+                  QCheckBox::indicator {
+                  width: 30px;
+                  height: 18px;
+                  }
+                  /*未选中*/
+                  QCheckBox::indicator::unchecked {
+                  image: url(:/Resources/Ws/checkbox_unchecked.png);
+                  }
+                  /*选中*/
+                  QCheckBox::indicator::checked {
+                  image: url(:/Resources/Ws/checkbox_checked.png);
+                  }
+                </string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_8">
+      <layout class="QGridLayout" name="gridLayout_10">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="UI_CardItemMulComboBox" name="m_mulComboBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox 
+{
+	border:1px solid #dddddd;
+	background-color: rgb(255, 255, 255);
+	color:#666666;
+	padding-left:10px;
+}
+
+QComboBox::drop-down
+{
+	width: 18px;
+	border-left: 0px solid rgb(0, 170, 255);
+} 
+
+QComboBox::down-arrow
+{
+	border-image: url(:/Resources/Ws/cbox_arrow_btn.png);
+	height:26px;
+	width:18px;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>UISearchCBox</class>
+   <extends>QLineEdit</extends>
+   <header>UISearchCBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UI_SummaryTag_ComboBox_Widget</class>
+   <extends>QWidget</extends>
+   <header location="global">ui_summarytag_combobox_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UI_CardItem_ComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">ui_carditem_combobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UI_CardItemMulComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">ui_carditemmulcombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

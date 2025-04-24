@@ -1,0 +1,25 @@
+# 编译输出
+build/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.app
+*.dSYM/
+
+# Qt Creator 文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.autosave
+
+# CMake 构建缓存
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# 其他
+*.log
+*.bak

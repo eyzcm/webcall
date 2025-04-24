@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{876BA4F5-5AE6-3878-912E-EDC4EFCA13CE}</ProjectGuid>
+    <RootNamespace>webcall_view</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\..\buildvc\$(ProjectName)\release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>..\..\..\..\buildvc\$(ProjectName)\release\</IntermediateDirectory>
+    <PrimaryOutput>webcall_view</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\..\buildvc\$(ProjectName)\debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>..\..\..\..\buildvc\$(ProjectName)\debug\</IntermediateDirectory>
+    <PrimaryOutput>webcall_view</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\buildvc\$(ProjectName)\debug\</OutDir>
+    <IntDir>..\..\..\..\buildvc\$(ProjectName)\debug\</IntDir>
+    <TargetName>webcall_view</TargetName>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\buildvc\$(ProjectName)\release\</OutDir>
+    <IntDir>..\..\..\..\buildvc\$(ProjectName)\release\</IntDir>
+    <TargetName>webcall_view</TargetName>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <QtInstall>qt514</QtInstall>
+    <QtModules>core;core-private;xml;network;gui;gui-private;svg;multimedia;widgets;qml;positioning;printsupport;webchannel;quick;webengine;webenginewidgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <QtInstall>qt514</QtInstall>
+    <QtModules>core;core-private;xml;network;gui;gui-private;svg;multimedia;widgets;qml;positioning;printsupport;webchannel;quick;webengine;webenginewidgets</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;.;..\webcall_utils\ui\common;..\webcall_serviceModel\EL_BasicModule;ui;ui\common\SummaryTag;ui\ai;ui\common;ui\topmenu;popui;popui\ui;popui\ui\tableview;popui\ui\announcement;settingui;settingui\ui;assistui\ui;assistui\ui\ListView;assistui\ui\TreeView;assistui\ui\robot;lefttree;lefttree\ui\JY_UI;lefttree\ui;lefttree\ui\JY_UI\ListView;lefttree\ui\JY_UI\TreeView;lefttree\ui\YL_UI;lefttree\ui\YL_UI\ListView;lefttree\ui\YL_UI\TreeView;chatui\ui;assistui;chatui;..\..\..\..\platform\src\platform\plat_utils\common;..\..\..\..\platform\src\platform\plat_utils;..\..\..\..\platform\src\platform\plat_view;..\..\..\..\platform\src\platform\plat_view\ui;..\..\..\..\platform\src\platform\platdata;..\..\..\..\platform\src\platform\plat_interface;..\..\..\..\platform\src\platform\el_session;..\webcall_data;..\webcall_dbModel;..\webcall_Model;..\webcall_interface;..\webcall_dbservice;..\webcall_utils;..\webcall_servicemodel;..\webcall_controll;../webcall_servicemodel/ui/YL_UI/topmenu;../webcall_servicemodel/EL_BuiltInBrowser/;..\..\..\..\utils\src\utils\utils_interface;..\..\..\..\utils\src\utils\el_common;..\..\..\..\utils\src\utils\runinterface;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>..\..\..\..\buildvc\$(ProjectName)\release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>..\..\..\..\buildvc\$(ProjectName)\release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\webcall_view.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WEBCALL_VIEW_LIBRARY;QT_DEPRECATED_WARNINGS;EL_PROJECTNAME="webcall_view";NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>runinterface.lib;utils_interface.lib;el_common.lib;platdata.lib;plat_utils.lib;plat_interface.lib;plat_view.lib;el_session.lib;webcall_data.lib;webcall_dbModel.lib;webcall_Model.lib;webcall_interface.lib;webcall_utils.lib;webcall_serviceModel.lib;webcall_dbservice.lib;webcall_controll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;$(QTDIR)\lib\Qt5QmlModels.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\..\buildvc\plat_view\release;..\..\..\..\buildvc\plat_utils\release;..\..\..\..\buildvc\runinterface\release;..\..\..\..\buildvc\utils_interface\release;..\..\..\..\buildvc\el_common\release;..\..\..\..\buildvc\platdata\release;..\..\..\..\buildvc\plat_interface\release;..\..\..\..\buildvc\el_session\release;..\..\..\..\buildvc\webcall_data\release;..\..\..\..\buildvc\webcall_dbModel\release;..\..\..\..\buildvc\webcall_Model\release;..\..\..\..\buildvc\webcall_interface\release;..\..\..\..\buildvc\webcall_utils\release;..\..\..\..\buildvc\webcall_serviceModel\release;..\..\..\..\buildvc\webcall_dbservice\release;..\..\..\..\buildvc\webcall_controll\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/debug /opt:ref %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\webcall_view.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <HeapCommitSize>
+      </HeapCommitSize>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WEBCALL_VIEW_LIBRARY;QT_DEPRECATED_WARNINGS;EL_PROJECTNAME=\"webcall_view\";NDEBUG;QT_NO_DEBUG;QT_MULTIMEDIA_LIB;QT_WEBENGINEWIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_QUICK_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QMLMODELS_LIB;QT_WEBCHANNEL_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_POSITIONING_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\..\buildvc\bin\release\</Command>
+      <Message>Copy webcall_view.dll to ..\..\..\..\buildvc\bin\release\</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>..\..\..\..\buildvc\$(ProjectName)\$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;.;..\webcall_utils\ui\common;..\webcall_serviceModel\EL_BasicModule;ui;ui\common\SummaryTag;ui\ai;ui\common;ui\topmenu;popui;popui\ui;popui\ui\tableview;popui\ui\announcement;settingui;settingui\ui;assistui\ui;assistui\ui\ListView;assistui\ui\TreeView;assistui\ui\robot;lefttree;lefttree\ui\JY_UI;lefttree\ui;lefttree\ui\JY_UI\ListView;lefttree\ui\JY_UI\TreeView;lefttree\ui\YL_UI;lefttree\ui\YL_UI\ListView;lefttree\ui\YL_UI\TreeView;chatui\ui;assistui;chatui;..\..\..\..\platform\src\platform\plat_utils\common;..\..\..\..\platform\src\platform\plat_utils;..\..\..\..\platform\src\platform\plat_view;..\..\..\..\platform\src\platform\plat_view\ui;..\..\..\..\platform\src\platform\platdata;..\..\..\..\platform\src\platform\plat_interface;..\..\..\..\platform\src\platform\el_session;..\webcall_data;..\webcall_dbModel;..\webcall_Model;..\webcall_interface;..\webcall_dbservice;..\webcall_utils;..\webcall_servicemodel;..\webcall_controll;../webcall_servicemodel/ui/YL_UI/topmenu;../webcall_servicemodel/EL_BuiltInBrowser/;..\..\..\..\utils\src\utils\utils_interface;..\..\..\..\utils\src\utils\el_common;..\..\..\..\utils\src\utils\runinterface;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /source-charset:utf-8 /execution-charset:utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>..\..\..\..\buildvc\$(ProjectName)\debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>..\..\..\..\buildvc\$(ProjectName)\debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\webcall_view.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WEBCALL_VIEW_LIBRARY;QT_DEPRECATED_WARNINGS;EL_PROJECTNAME="webcall_view";QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>runinterface.lib;utils_interface.lib;el_common.lib;plat_utils.lib;plat_view.lib;plat_interface.lib;platdata.lib;el_session.lib;webcall_data.lib;webcall_dbModel.lib;webcall_Model.lib;webcall_interface.lib;webcall_utils.lib;webcall_serviceModel.lib;webcall_dbservice.lib;webcall_controll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;$(QTDIR)\lib\Qt5QmlModelsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\..\buildvc\plat_view\debug;..\..\..\..\buildvc\plat_utils\debug;..\..\..\..\buildvc\runinterface\debug;..\..\..\..\buildvc\utils_interface\debug;..\..\..\..\buildvc\el_common\debug;..\..\..\..\buildvc\plat_interface\debug;..\..\..\..\buildvc\platdata\debug;..\..\..\..\buildvc\el_session\debug;..\..\..\..\buildvc\webcall_data\debug;..\..\..\..\buildvc\webcall_dbModel\debug;..\..\..\..\buildvc\webcall_Model\debug;..\..\..\..\buildvc\webcall_interface\debug;..\..\..\..\buildvc\webcall_utils\debug;..\..\..\..\buildvc\webcall_serviceModel\debug;..\..\..\..\buildvc\webcall_dbservice\debug;..\..\..\..\buildvc\webcall_controll\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\webcall_view.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WEBCALL_VIEW_LIBRARY;QT_DEPRECATED_WARNINGS;EL_PROJECTNAME=\"webcall_view\";QT_MULTIMEDIA_LIB;QT_WEBENGINEWIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_QUICK_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QMLMODELS_LIB;QT_WEBCHANNEL_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_POSITIONING_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\..\buildvc\bin\debug\</Command>
+      <Message>Copy webcall_view.dll to ..\..\..\..\buildvc\bin\debug\</Message>
+    </PostBuildEvent>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>..\..\..\..\buildvc\$(ProjectName)\$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="assistui\ui\UI_Wnd_OutputLog2.cpp" />
+    <ClCompile Include="chatui\ui\js\JsPanelThirdTabHelper.cpp" />
+    <ClCompile Include="chatui\ui\UI_Pane_ThirdTab.cpp" />
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_card_jshelper.cpp" />
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.cpp" />
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_replycomments_jshelper.cpp" />
+    <ClCompile Include="popui\EL_DouYin_Business\el_douyin_business_video_jshelper.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_cloudlogin_jshelper.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_common_popup_ui.cpp" />
+    <ClCompile Include="settingui\ui\js\jscustomercontactwayhelper.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageFlashTypePanel.cpp" />
+    <ClCompile Include="ui\common\AddressLibrary_Helper.cpp" />
+    <ClCompile Include="ui\Common\BaseJsCommHelper.cpp" />
+    <ClCompile Include="ui\Common\BaseMainWnd.cpp" />
+    <ClCompile Include="ui\common\JsWebWidgetHelp.cpp" />
+    <ClCompile Include="ui\common\UI_WebWidget.cpp" />
+    <ClCompile Include="ui\topmenu\EL_TopFunProcess.cpp" />
+    <ClCompile Include="popui\ui\FaceLabel.cpp" />
+    <ClCompile Include="ui\ai\JsAICommonHelper.cpp" />
+    <ClCompile Include="popui\ui\js\JsAssistantHelper.cpp" />
+    <ClCompile Include="ui\js\JsChatRichEditHelper.cpp" />
+    <ClCompile Include="ui\Common\JsCommonHelper.cpp" />
+    <ClCompile Include="popui\ui\js\JsCommonfilesHelper.cpp" />
+    <ClCompile Include="chatui\ui\js\JsNewChatHelper.cpp" />
+    <ClCompile Include="popui\ui\js\JsNewCustomerMonitorHelper.cpp" />
+    <ClCompile Include="popui\ui\js\JsNewCustomerMonitorSettingHelper.cpp" />
+    <ClCompile Include="chatui\ui\js\JsNew_ColleagueDialogue_Helper.cpp" />
+    <ClCompile Include="ui\js\JsNoticeHelper.cpp" />
+    <ClCompile Include="assistui\ui\js\JsPanelAIHelper.cpp" />
+    <ClCompile Include="ui\js\JsPanelNewTabHelper.cpp" />
+    <ClCompile Include="settingui\ui\js\JsPersonUserCenterHelper.cpp" />
+    <ClCompile Include="settingui\ui\js\JsPersonWeixinHelper.cpp" />
+    <ClCompile Include="popui\ui\js\JsSendTableHelper.cpp" />
+    <ClCompile Include="ui\ai\UIAICommonWidgetPanel.cpp" />
+    <ClCompile Include="popui\ui\UIAllocationChatWnd.cpp" />
+    <ClCompile Include="popui\ui\UIAssistantWidgetPanel.cpp" />
+    <ClCompile Include="popui\ui\UIBackgroundColorWidget.cpp" />
+    <ClCompile Include="assistui\ui\UICardDataWidgetPanel.cpp" />
+    <ClCompile Include="assistui\ui\UICardItemData.cpp" />
+    <ClCompile Include="chatui\ui\UIChatRecordWidgetPanel.cpp" />
+    <ClCompile Include="popui\ui\UIColorSettingPanel.cpp" />
+    <ClCompile Include="ui\Common\UICommonWidgetPanel.cpp" />
+    <ClCompile Include="popui\ui\UICustomerMonitorWidgetPanel.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIEachBotMainWnd.cpp" />
+    <ClCompile Include="chatui\ui\UIFontWidgetPanel.cpp" />
+    <ClCompile Include="chatui\tools\UIJsManage.cpp" />
+    <ClCompile Include="ui\Common\UIPictureWidgetPanel.cpp" />
+    <ClCompile Include="popui\ui\UIRefreshButtonPanel.cpp" />
+    <ClCompile Include="popui\ui\UISearchBox.cpp" />
+    <ClCompile Include="ui\Common\UISearchCBox.cpp" />
+    <ClCompile Include="ui\Common\UIStatusWidgetPanel.cpp" />
+    <ClCompile Include="ui\Common\UITextEdit.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_AutoCloseChatTimePanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_AuxiliaryFunPanel.cpp" />
+    <ClCompile Include="ui\UIYL_BaseWnd.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_CacheClearPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_CachePathPanel.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_Centerwidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChangeStatusPanel.cpp" />
+    <ClCompile Include="assistui\ui\UIYL_ChatAndCardPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChatListColorPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChatListSettingWidget.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_ChatRecordWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChatSortRulePanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChatStatusRulePanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ChatToolBarPanel.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListTreeView.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UIYL_CommonWordListViewModel.cpp" />
+    <ClCompile Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListTreeView.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewItemDelegate.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewModel.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeView.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemDelegate.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewModel.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_DialogueTrackingPanel.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_EditFunwidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_FrequentPromptSettingPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_GeneralSettingPanel.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_GroupBySitePanel.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_HistoryRecordWidget.cpp" />
+    <ClCompile Include="assistui\ui\UIYL_KeywordPromptSettingPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_LemonLovesBeautyPanel.cpp" />
+    <ClCompile Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeView.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemDelegate.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewModel.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListTreeView.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListViewModel.cpp" />
+    <ClCompile Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MainWindowColorPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MainWindowSettingWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\ListView\UIYL_MainvisitorListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListView.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewModel.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListView.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewModel.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListView.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewModel.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.cpp" />
+    <ClCompile Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageBusinessModulePanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessagePromptWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageSoundTypePanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageToastPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_MessageTypePanel.cpp" />
+    <ClCompile Include="popui\ui\UIYL_MonitorHistoryRecordWidget.cpp" />
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView.cpp" />
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Delegate.cpp" />
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Model.cpp" />
+    <ClCompile Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_VHeader.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_PersonMainWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_PersonSettingWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_PromptSettingWidget.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_RecentCardSearchListWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeView.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemDelegate.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewModel.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_RecentChatTreeWidget.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.cpp" />
+    <ClCompile Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.cpp" />
+    <ClCompile Include="ui\Common\UIYL_RichTextPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_ShowOperationPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_SoftwareUPRemindPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_StatusSettingPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_SysConfigWidget.cpp" />
+    <ClCompile Include="ui\common\UIYL_TopMenuFunPanel.cpp" />
+    <ClCompile Include="lefttree\ui\yl_ui\UIYL_TreeWidget.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_ViewTrackWidget.cpp" />
+    <ClCompile Include="chatui\ui\UIYL_VisitorInfoWidget.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_WindowOperationPanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_person_usercenterpanel.cpp" />
+    <ClCompile Include="settingui\ui\UIYL_person_weixinpanel.cpp" />
+    <ClCompile Include="ui\ai\UI_AICommonWnd.cpp" />
+    <ClCompile Include="popui\ui\UI_AssistantWnd.cpp" />
+    <ClCompile Include="chatui\ui\UI_Btn_Enter.cpp" />
+    <ClCompile Include="assistui\ui\UI_Btn_Skin.cpp" />
+    <ClCompile Include="settingui\ui\UI_ComboBox_PromptSound.cpp" />
+    <ClCompile Include="ui\Common\UI_CommPanel_Notice.cpp" />
+    <ClCompile Include="popui\UI\UI_CommPanel_SendTable.cpp" />
+    <ClCompile Include="ui\Common\UI_CommonWnd.cpp" />
+    <ClCompile Include="popui\ui\UI_CustomerMonitorSettingWnd.cpp" />
+    <ClCompile Include="popui\ui\UI_CustomerMonitorStatisticsWnd.cpp" />
+    <ClCompile Include="popui\ui\UI_CustomerMonitorWnd.cpp" />
+    <ClCompile Include="settingui\ui\ListView\UI_DelegateItem_PromptSound.cpp" />
+    <ClCompile Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.cpp" />
+    <ClCompile Include="settingui\ui\ListView\UI_ListView_PromptSound.cpp" />
+    <ClCompile Include="lefttree\ui\UI_MainTreeToolTip.cpp" />
+    <ClCompile Include="settingui\ui\ListView\UI_ModelItem_PromptSound.cpp" />
+    <ClCompile Include="ui\Common\UI_NoticeBubblePrompt.cpp" />
+    <ClCompile Include="assistui\ui\UI_Pane_AI_Modify.cpp" />
+    <ClCompile Include="assistui\ui\UI_Pane_AI_SelfBuild.cpp" />
+    <ClCompile Include="assistui\ui\UI_Pane_NewTab.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_AddCommonWord.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_BrowseVisitor.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_BtnItemSetting.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_CardSavePrompt.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_ChangeSkin.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_DialogueVisitor.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_HotKey.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_LemonLovesBeauty.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_ModifyCommonWord.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_OutputLog.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_QuickCommonWord.cpp" />
+    <ClCompile Include="assistui\ui\UI_Panel_RedEnvelopes.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_RuleType.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_Terminal.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorChannel.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorEngine.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo_Group.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Panel_VisitorSubsite.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListView.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemModel.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListView.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemDelegate.cpp" />
+    <ClCompile Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemModel.cpp" />
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeViewItemDelegate_CommonWord.cpp" />
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeViewItemModel_CommonWord.cpp" />
+    <ClCompile Include="assistui\ui\TreeView\UI_TreeView_CommonWord.cpp" />
+    <ClCompile Include="popui\ui\UI_VisitorMonitorWnd.cpp" />
+    <ClCompile Include="ui\Common\UI_WebView_ShieldBackSpace.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_ChatTransfer.cpp" />
+    <ClCompile Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_CommonWord_Panel.cpp" />
+    <ClCompile Include="chatui\ui\UI_Widget_CustomHoverPanel.cpp" />
+    <ClCompile Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.cpp" />
+    <ClCompile Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.cpp" />
+    <ClCompile Include="ui\Common\UI_Widget_Lock.cpp" />
+    <ClCompile Include="ui\UI_Widget_MainWindow.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.cpp" />
+    <ClCompile Include="assistui\ui\UI_Widget_Statistics_Panel.cpp" />
+    <ClCompile Include="ui\UI_Widget_User_Panel.cpp" />
+    <ClCompile Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.cpp" />
+    <ClCompile Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.cpp" />
+    <ClCompile Include="chatui\ui\UI_Wnd_ColleagueDialogue.cpp" />
+    <ClCompile Include="assistui\ui\UI_Wnd_HotKey.cpp" />
+    <ClCompile Include="ui\Common\UI_Wnd_MessageBox.cpp" />
+    <ClCompile Include="assistui\ui\UI_Wnd_ModifyCommonWord.cpp" />
+    <ClCompile Include="assistui\ui\UI_Wnd_OutputLog.cpp" />
+    <ClCompile Include="chatui\ui\js\YLJSHistoryRecordWidgetHelper.cpp" />
+    <ClCompile Include="chatui\ui\js\YLJSVisitorInfoWidgetHelper.cpp" />
+    <ClCompile Include="assistui\ui\js\YLJS_LemonLovesBeauty_EditPanel_Helper.cpp" />
+    <ClCompile Include="assistui\ui\js\YLJS_LemonLovesBeauty_RightPanel_Helper.cpp" />
+    <ClCompile Include="assistui\ui\Robot\YL_ManRobotRuleLeafNodeItemData.cpp" />
+    <ClCompile Include="assistui\ui\Robot\YL_ManRobotRuleListItem.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_announcement_details.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_announcement_details_jshelper.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_announcement_notice.cpp" />
+    <ClCompile Include="popui\ui\announcement\el_announcement_notice_jshelper.cpp" />
+    <ClCompile Include="settingui\ui\el_autoreply_item.cpp" />
+    <ClCompile Include="EL_BuiltInBrowser\el_builtinbrowser.cpp" />
+    <ClCompile Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.cpp" />
+    <ClCompile Include="assistui\EL_CommonWord\el_commonword_jshelper.cpp" />
+    <ClCompile Include="assistui\EL_CommonWord\el_commonword_popup_ui.cpp" />
+    <ClCompile Include="ui\Common\el_textedit.cpp" />
+    <ClCompile Include="ui\topmenu\el_toolbutton.cpp" />
+    <ClCompile Include="ui\topmenu\el_topfunarea.cpp" />
+    <ClCompile Include="ui\topmenu\el_topscrollarea.cpp" />
+    <ClCompile Include="ui\topmenu\el_widget.cpp" />
+    <ClCompile Include="popui\ui\js\jsTransitDialogueHelper.cpp" />
+    <ClCompile Include="popui\ui\js\jsemotionhelper.cpp" />
+    <ClCompile Include="chatui\ui\js\jsnewtrackhelper.cpp" />
+    <ClCompile Include="popui\ui\js\jsshieldvisitorhelper.cpp" />
+    <ClCompile Include="popui\ui\ui_sendimage.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_addtag_widget.cpp" />
+    <ClCompile Include="ui\common\summarytag\ui_summarytag_combobox.cpp" />
+    <ClCompile Include="ui\common\summarytag\ui_summarytag_combobox_widget.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listview.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_data.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_delegate.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_listviewitem_model.cpp" />
+    <ClCompile Include="ui\common\summarytag\content\ui_summarytag_pushbutton.cpp" />
+    <ClCompile Include="settingui\ui\ui_upgrade_reminder.cpp" />
+    <ClCompile Include="popui\ui\uichatsummarywnd.cpp" />
+    <ClCompile Include="popui\ui\uiemotionwnd.cpp" />
+    <ClCompile Include="ui\common\uiiewnd.cpp" />
+    <ClCompile Include="ui\Common\uilockwnd.cpp" />
+    <ClCompile Include="ui\Common\uimenubutton.cpp" />
+    <ClCompile Include="ui\common\uinotifymessagebox.cpp" />
+    <ClCompile Include="popui\ui\uiradioitem.cpp" />
+    <ClCompile Include="popui\ui\uishieldvisitorwnd.cpp" />
+    <ClCompile Include="popui\ui\uitransitdialoguewnd.cpp" />
+    <ClCompile Include="ui\Common\uiunlockwnd.cpp" />
+    <ClCompile Include="chatui\tools\uiwebviewpool.cpp" />
+    <ClCompile Include="chatui\ui\uiyl_arc_progressbar.cpp" />
+    <ClCompile Include="ui\common\utilsviewhelper.cpp" />
+    <ClCompile Include="service\viewuiservice.cpp" />
+    <ClCompile Include="webcall_view.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ui\common\AddressLibrary_Helper.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\BaseJsCommHelper.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\BaseMainWnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\EL_TopFunProcess.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\FaceLabel.h">
+    </QtMoc>
+    <QtMoc Include="ui\ai\JsAICommonHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsAssistantHelper.h">
+    </QtMoc>
+    <QtMoc Include="ui\js\JsChatRichEditHelper.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\JsCommonHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsCommonfilesHelper.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\JsNewChatHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsNewCustomerMonitorHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsNewCustomerMonitorSettingHelper.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\JsNew_ColleagueDialogue_Helper.h">
+    </QtMoc>
+    <QtMoc Include="ui\js\JsNoticeHelper.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\JsPanelAIHelper.h">
+    </QtMoc>
+    <QtMoc Include="ui\js\JsPanelNewTabHelper.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\js\JsPersonUserCenterHelper.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\js\JsPersonWeixinHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\JsSendTableHelper.h">
+    </QtMoc>
+    <QtMoc Include="ui\ai\UIAICommonWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIAllocationChatWnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIAssistantWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIBackgroundColorWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UICardDataWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UICardItemData.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIChatRecordWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIColorSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UICommonWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UICustomerMonitorWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIEachBotMainWnd.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIFontWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="chatui\tools\UIJsManage.h">
+    </QtMoc>
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_card_jshelper.h" />
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.h" />
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_replycomments_jshelper.h" />
+    <QtMoc Include="popui\EL_DouYin_Business\el_douyin_business_video_jshelper.h" />
+    <QtMoc Include="chatui\ui\js\JsPanelThirdTabHelper.h" />
+    <QtMoc Include="chatui\ui\UI_Pane_ThirdTab.h" />
+    <QtMoc Include="settingui\ui\UIYL_MessageFlashTypePanel.h" />
+    <QtMoc Include="popui\ui\announcement\el_cloudlogin_jshelper.h" />
+    <QtMoc Include="popui\ui\announcement\el_common_popup_ui.h" />
+    <QtMoc Include="settingui\ui\js\jscustomercontactwayhelper.h" />
+    <QtMoc Include="assistui\ui\UI_Wnd_OutputLog2.h" />
+    <ClInclude Include="UIObserverImp.h" />
+    <QtMoc Include="ui\Common\UIPictureWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIRefreshButtonPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UISearchBox.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UISearchCBox.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UIStatusWidgetPanel.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UITextEdit.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_AutoCloseChatTimePanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_AuxiliaryFunPanel.h">
+    </QtMoc>
+    <QtMoc Include="ui\UIYL_BaseWnd.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_CacheClearPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_CachePathPanel.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_Centerwidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChangeStatusPanel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_ChatAndCardPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatListColorPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatListSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_ChatRecordWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatSortRulePanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatStatusRulePanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ChatToolBarPanel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListTreeView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UIYL_CommonWordListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListTreeView.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_CustomerListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeView.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewModel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_DialogueTrackingPanel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_EditFunwidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_FrequentPromptSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_GeneralSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_GroupBySitePanel.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_HistoryRecordWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UIYL_KeywordPromptSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_LemonLovesBeautyPanel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeView.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewModel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListTreeView.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainVisitorListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MainWindowColorPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MainWindowSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\ListView\UIYL_MainvisitorListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_ListViewModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageBusinessModulePanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessagePromptWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageSoundTypePanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageToastPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_MessageTypePanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UIYL_MonitorHistoryRecordWidget.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Delegate.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_Model.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\TableView\UIYL_MonitorVisitor_TableView_VHeader.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PersonMainWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PersonSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_PromptSettingWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentCardSearchListWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeView.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewModel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentChatTreeWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UIYL_RichTextPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_ShowOperationPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_SoftwareUPRemindPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_StatusSettingPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_SysConfigWidget.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\UIYL_TopMenuFunPanel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\yl_ui\UIYL_TreeWidget.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_ViewTrackWidget.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UIYL_VisitorInfoWidget.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_WindowOperationPanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_person_usercenterpanel.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UIYL_person_weixinpanel.h">
+    </QtMoc>
+    <QtMoc Include="ui\ai\UI_AICommonWnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_AssistantWnd.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Btn_Enter.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Btn_Skin.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\UI_ComboBox_PromptSound.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_CommPanel_Notice.h">
+    </QtMoc>
+    <QtMoc Include="popui\UI\UI_CommPanel_SendTable.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_CommonWnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorSettingWnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorStatisticsWnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_CustomerMonitorWnd.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_DelegateItem_PromptSound.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ListView_PromptSound.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_MainTreeToolTip.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ListView\UI_ModelItem_PromptSound.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_NoticeBubblePrompt.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_AI_Modify.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_AI_SelfBuild.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Pane_NewTab.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_AddCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_BrowseVisitor.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_BtnItemSetting.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_CardSavePrompt.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_ChangeSkin.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_DialogueVisitor.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_HotKey.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_LemonLovesBeauty.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_ModifyCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_OutputLog.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_QuickCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Panel_RedEnvelopes.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_RuleType.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_Terminal.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorChannel.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorEngine.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo_Group.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Panel_VisitorSubsite.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_PersonalQuickCommonWord_ListViewItemModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListView.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemDelegate.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\ListView\UI_QuickCommonWord_ListViewItemModel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeViewItemDelegate_CommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeViewItemModel_CommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\TreeView\UI_TreeView_CommonWord.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_VisitorMonitorWnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_WebView_ShieldBackSpace.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_ChatTransfer.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_CommonWord_Panel.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Widget_CustomHoverPanel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_Widget_Lock.h">
+    </QtMoc>
+    <QtMoc Include="ui\UI_Widget_MainWindow.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Widget_Statistics_Panel.h">
+    </QtMoc>
+    <QtMoc Include="ui\UI_Widget_User_Panel.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\UI_Wnd_ColleagueDialogue.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_HotKey.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\UI_Wnd_MessageBox.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_ModifyCommonWord.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\UI_Wnd_OutputLog.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\YLJSHistoryRecordWidgetHelper.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\YLJSVisitorInfoWidgetHelper.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\YLJS_LemonLovesBeauty_EditPanel_Helper.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\js\YLJS_LemonLovesBeauty_RightPanel_Helper.h">
+    </QtMoc>
+    <QtMoc Include="assistui\ui\Robot\YL_ManRobotRuleLeafNodeItemData.h">
+    </QtMoc>
+    <ClInclude Include="assistui\ui\Robot\YL_ManRobotRuleListItem.h" />
+    <QtMoc Include="ui\common\JsWebWidgetHelp.h" />
+    <QtMoc Include="ui\common\UI_WebWidget.h" />
+    <ClInclude Include="ui\topmenu\el_MED_global.h" />
+    <QtMoc Include="popui\ui\announcement\el_announcement_details.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_details_jshelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_notice.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\announcement\el_announcement_notice_jshelper.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\el_autoreply_item.h">
+    </QtMoc>
+    <QtMoc Include="EL_BuiltInBrowser\el_builtinbrowser.h">
+    </QtMoc>
+    <QtMoc Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.h">
+    </QtMoc>
+    <QtMoc Include="assistui\EL_CommonWord\el_commonword_jshelper.h">
+    </QtMoc>
+    <QtMoc Include="assistui\EL_CommonWord\el_commonword_popup_ui.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\el_textedit.h">
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_toolbutton.h">
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_topfunarea.h">
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_topscrollarea.h">
+    </QtMoc>
+    <QtMoc Include="ui\topmenu\el_widget.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsTransitDialogueHelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsemotionhelper.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\js\jsnewtrackhelper.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\js\jsshieldvisitorhelper.h">
+    </QtMoc>
+    <CustomBuild Include="stdafx.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo /*-------------------------------------------------------------------- &gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "stdafx.h"&gt;&gt;stdafx.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating precompiled header source file 'stdafx.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo /*-------------------------------------------------------------------- &gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;stdafx.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "stdafx.h"&gt;&gt;stdafx.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating precompiled header source file 'stdafx.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <QtMoc Include="popui\ui\ui_sendimage.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_addtag_widget.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\ui_summarytag_combobox.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\ui_summarytag_combobox_widget.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listview.h">
+    </QtMoc>
+    <ClInclude Include="ui\common\summarytag\content\ui_summarytag_listviewitem_data.h" />
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listviewitem_delegate.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_listviewitem_model.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\summarytag\content\ui_summarytag_pushbutton.h">
+    </QtMoc>
+    <QtMoc Include="settingui\ui\ui_upgrade_reminder.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\uichatsummarywnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\uiemotionwnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\uiiewnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\uilockwnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\uimenubutton.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\uinotifymessagebox.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\uiradioitem.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\uishieldvisitorwnd.h">
+    </QtMoc>
+    <QtMoc Include="popui\ui\uitransitdialoguewnd.h">
+    </QtMoc>
+    <QtMoc Include="ui\Common\uiunlockwnd.h">
+    </QtMoc>
+    <QtMoc Include="chatui\tools\uiwebviewpool.h">
+    </QtMoc>
+    <QtMoc Include="chatui\ui\uiyl_arc_progressbar.h">
+    </QtMoc>
+    <QtMoc Include="ui\common\utilsviewhelper.h">
+    </QtMoc>
+    <QtMoc Include="service\viewuiservice.h">
+    </QtMoc>
+    <ClInclude Include="webcall_view.h" />
+    <ClInclude Include="webcall_view_global.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\buildvc\$(ProjectName)\debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /MP /source-charset:utf-8 /execution-charset:utf-8 -Zi -MDd -EHsc -GR -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;..\..\..\..\buildvc\$(ProjectName)\debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\buildvc\$(ProjectName)\debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\buildvc\$(ProjectName)\release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus /MP /source-charset:utf-8 /execution-charset:utf-8 -O2 -Zi -MD -EHsc -GR -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;..\..\..\..\buildvc\$(ProjectName)\release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\buildvc\$(ProjectName)\release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClCompile Include="stdafx.h.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="assistui\ui\UI_Wnd_OutputLog2.ui" />
+    <QtUic Include="chatui\ui\UI_Pane_ThirdTab.ui" />
+    <QtUic Include="popui\EL_DouYin_Business\el_douyin_business_popup_ui.ui" />
+    <QtUic Include="popui\ui\announcement\el_common_popup_ui.ui" />
+    <QtUic Include="settingui\ui\UIYL_MessageFlashTypePanel.ui" />
+    <QtUic Include="ui\ai\UIAICommonWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIAllocationChatWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIAssistantWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIBackgroundColorWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UICardDataWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UICardItemData.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIChatRecordWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIColorSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UICommonWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UICustomerMonitorWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIEachBotMainWnd.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIFontWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UIPictureWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIRefreshButtonPanel.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UIStatusWidgetPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_AutoCloseChatTimePanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_AuxiliaryFunPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_CacheClearPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_CachePathPanel.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_Centerwidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChangeStatusPanel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_ChatAndCardPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatListColorPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatListSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_ChatRecordWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatSortRulePanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatStatusRulePanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ChatToolBarPanel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_CommonWordTreeSearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_CustomerTreeSearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_CustomerTreeViewItemWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_CustomerTreeWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_DialogueTrackingPanel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_EachbotSettingWidget.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_EditFunwidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_FrequentPromptSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_GeneralSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_GroupBySitePanel.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_HistoryRecordWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UIYL_KeywordPromptSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_LemonLovesBeautyPanel.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\YL_UI\UIYL_MainCardSearchListWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_MainTreeSearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_MainTreeViewItemWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_MainTreeWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\YL_UI\UIYL_MainVisitorSearchListWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MainWindowColorPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MainWindowSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingUrlWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSettingWidget_KeyPrompt.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRuleSetting_PreviewEffect_Widget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotRule_KeyWord_SearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_AlternateRobot.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_CountPrompt.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\Robot\UIYL_ManRobotSettingWidget_KeyPrompt.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ManualOffPromptSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageBusinessModulePanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessagePromptWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageSoundTypeItemPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageSoundTypePanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageToastPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_MessageTypePanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UIYL_MonitorHistoryRecordWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PersonMainWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PersonSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_PromptSettingWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentCardSearchListWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\TreeView\UIYL_RecentChatTreeViewItemWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentChatTreeWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentTreeSearchResultWidget.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UIYL_RecentVisitorSearchListWidget.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UIYL_RichTextPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ShortcutKeysSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_ShowOperationPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_SoftwareUPRemindPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_StatusSettingPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_SysConfigWidget.ui">
+    </QtUic>
+    <QtUic Include="ui\common\UIYL_TopMenuFunPanel.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\yl_ui\UIYL_TreeWidget.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_ViewTrackWidget.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UIYL_VisitorInfoWidget.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_WindowOperationPanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_person_usercenterpanel.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\UIYL_person_weixinpanel.ui">
+    </QtUic>
+    <QtUic Include="ui\ai\UI_AICommonWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_AssistantWnd.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Btn_Enter.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UI_CommPanel_Notice.ui">
+    </QtUic>
+    <QtUic Include="popui\UI\UI_CommPanel_SendTable.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UI_CommonWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorSettingWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorStatisticsWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_CustomerMonitorWnd.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\ListView\UI_ListViewItem_Widget_PromptSound.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_MainTreeToolTip.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UI_NoticeBubblePrompt.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_AI_Modify.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_AI_SelfBuild.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Pane_NewTab.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_AddCommonWord.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_AddPersonalQuickCommonWord.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_AdvancedFilterVisitor.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_AlreadyLeftVisitor.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_BrowseVisitor.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_BtnItemSetting.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_CardSavePrompt.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_ChangeSkin.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_DialogueVisitor.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_HotKey.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_LemonLovesBeauty.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_ModifyCommonWord.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_OutputLog.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_PersonalQuickCommonWord.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_QuickCommonWord.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Panel_RedEnvelopes.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_RuleType.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_Terminal.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorChannel.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorEngine.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo_Group.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorInfo_GroupItem.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Panel_VisitorSubsite.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\SummaryTag\Content\UI_SummaryTag_AddTag_Widget.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\SummaryTag\UI_SummaryTag_ComboBox_Widget.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_VisitorMonitorWnd.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_AuxiliaryFun_Panenl.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_ChatTransfer.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Widget_ColleagueDialogue_Panel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_CommonPhrasesCard_Panel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_CommonWord_Panel.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Widget_CustomHoverPanel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_Widget_CustomerMonitoringSetting_Panel.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\UI_Widget_CustomerMonitoring_Panel.ui">
+    </QtUic>
+    <QtUic Include="ui\common\UI_WebWidget.ui" />
+    <QtUic Include="ui\Common\UI_Widget_Lock.ui">
+    </QtUic>
+    <QtUic Include="ui\UI_Widget_MainWindow.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_Statistics_BrokenNet_Panel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Widget_Statistics_Panel.ui">
+    </QtUic>
+    <QtUic Include="ui\UI_Widget_User_Panel.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_AddPersonalQuickCommonWord.ui">
+    </QtUic>
+    <QtUic Include="lefttree\ui\UI_Wnd_AdvancedFilterVisitor.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\UI_Wnd_ColleagueDialogue.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_HotKey.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\UI_Wnd_MessageBox.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_ModifyCommonWord.ui">
+    </QtUic>
+    <QtUic Include="assistui\ui\UI_Wnd_OutputLog.ui">
+    </QtUic>
+    <QtUic Include="ui\common\baseMainWnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\announcement\el_announcement_details.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\announcement\el_announcement_notice.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\el_autoreply_item.ui">
+    </QtUic>
+    <QtUic Include="EL_BuiltInBrowser\el_builtinbrowser.ui">
+    </QtUic>
+    <QtUic Include="EL_BuiltInBrowser\el_builtinbrowser_zoom.ui">
+    </QtUic>
+    <QtUic Include="assistui\EL_CommonWord\el_commonword_popup_ui.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\el_textedit.ui">
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_toolbutton.ui">
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_topfunarea.ui">
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_topscrollarea.ui">
+    </QtUic>
+    <QtUic Include="ui\topmenu\el_widget.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\ui_sendimage.ui">
+    </QtUic>
+    <QtUic Include="settingui\ui\ui_upgrade_reminder.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\uichatsummarywnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\uiemotionwnd.ui">
+    </QtUic>
+    <QtUic Include="ui\common\uiiewnd.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\uilockwnd.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\uimenubutton.ui">
+    </QtUic>
+    <QtUic Include="ui\common\uinotifymessagebox.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\uiradioitem.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\uishieldvisitorwnd.ui">
+    </QtUic>
+    <QtUic Include="popui\ui\uitransitdialoguewnd.ui">
+    </QtUic>
+    <QtUic Include="ui\Common\uiunlockwnd.ui">
+    </QtUic>
+    <QtUic Include="chatui\ui\uiyl_arc_progressbar.ui">
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Resources\EasyLiaoClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

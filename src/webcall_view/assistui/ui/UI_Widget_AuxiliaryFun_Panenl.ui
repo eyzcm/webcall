@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UI_Widget_AuxiliaryFun_PanenlClass</class>
+ <widget class="QWidget" name="UI_Widget_AuxiliaryFun_PanenlClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>辅助功能</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin" stdset="0">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string>QToolButton
+{
+	color: rgb(64, 158, 255);
+	border-radius:9px;padding:2px 4px;
+	border:0px; 
+	padding-left:9px;
+	padding-right:9px; 
+	background-color: #FFFFFF;
+} 
+
+QToolButton:hover, QToolButton:pressed
+{
+	border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QToolButton" name="btn_consultCustomerOnline">
+        <property name="styleSheet">
+         <string notr="true">QToolButton
+{
+	color: rgb(64, 158, 255);
+	border-radius:9px;padding:2px 4px;
+	border:0px; 
+	padding-left:9px;
+	padding-right:5px; 
+	background-color: #FFFFFF;
+}   
+
+QToolButton:hover, QToolButton:pressed
+{
+	border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string>问题反馈</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/problem_feedback.svg</normaloff>:/Resources/SVG/problem_feedback.svg</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextBesideIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>10</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_TopWnd">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>置顶</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+	border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_topwnd_normal.svg</normaloff>:/Resources/SVG/btn_topwnd_normal.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="el_PushButton" name="btn_msgPrompt">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>通知公告</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+	border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_notice.svg</normaloff>:/Resources/SVG/btn_notice.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_calculator">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>计算器</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+	border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_Calculator.svg</normaloff>:/Resources/SVG/btn_Calculator.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_changeSkin">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>更换皮肤</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_ChangeSkin.svg</normaloff>:/Resources/SVG/btn_ChangeSkin.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_lockScreen">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>屏幕锁定</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_LockScreen.svg</normaloff>:/Resources/SVG/btn_LockScreen.svg</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_resetScale">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>还原比例</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border:0px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+border-image: url(:/YL/Resources/YL/TopRight/Btn_MouseHover.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+          <normaloff>:/Resources/SVG/btn_ResetScale.svg</normaloff>:/Resources/SVG/btn_ResetScale.svg</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>el_PushButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">el_pushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

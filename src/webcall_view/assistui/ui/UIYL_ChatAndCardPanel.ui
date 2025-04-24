@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UIYL_ChatAndCardPanel</class>
+ <widget class="QWidget" name="UIYL_ChatAndCardPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>对话与名片</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_bg
+{
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>20</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_1" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>20</height>
+         </size>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>2</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>2</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel
+{
+	background-color: #6b8596;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>5</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel
+{
+font: 14px &quot;微软雅黑&quot;;
+color:#333333;
+}</string>
+           </property>
+           <property name="text">
+            <string>对话与名片</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>10</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="styleSheet">
+            <string notr="true">QLabel
+{
+padding-top:2px;
+font: 12px &quot;微软雅黑&quot;;
+color: #999999;
+}</string>
+           </property>
+           <property name="text">
+            <string>用于设置当前账号的对话与名片等相关功能。</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_10">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>5</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="Line" name="line">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>1</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>1</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame
+{
+border:0px;
+background-color: #dddddd;
+}</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>15</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_9" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>56</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>56</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>对话自动清除</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_11" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_11">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取手机号码</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_12" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取电话号码</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_14" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_15">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_16">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取QQ号</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_214" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_215">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_216">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取邮箱</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_15" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_17">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_18">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取微信号</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_10">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_17" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_20">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_22">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动抓取地区</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_11">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_21" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>62</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>62</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_22">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_24">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>同时抓取</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_13">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_20" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_25">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_27">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>自动保存信息</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_12">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_promptCreateNewCard_title" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_13">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color:#666666;</string>
+                 </property>
+                 <property name="text">
+                  <string>提示新建名片</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_4" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_5" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>56</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>56</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoClearChatCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_13" native="true">
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <property name="spacing">
+                   <number>5</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_9">
+                    <property name="styleSheet">
+                     <string notr="true">font:11px;
+color:#999999;</string>
+                    </property>
+                    <property name="text">
+                     <string>已离开的访客，离开</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSpinBox" name="m_cleatChatTime">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>50</width>
+                      <height>26</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>50</width>
+                      <height>26</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QSpinBox
+{
+border:1px solid rgb(221, 221, 221);
+font: 12px &quot;微软雅黑&quot;;
+color: #333333;
+padding-left:5px;
+}
+
+QSpinBox::up-button
+{
+border:1px solid rgb(221, 221, 221);
+border-top:0px;
+border-right:0px;
+width:16px;
+height:11px;
+background-color: rgb(247, 247, 247);
+}
+
+QSpinBox::down-button
+{
+border:1px solid rgb(221, 221, 221);
+border-top:0px;
+border-right:0px;
+width:16px;
+height:11px;
+background-color: rgb(247, 247, 247);
+}
+
+QSpinBox::up-arrow
+{
+	image: url(:/YL/Resources/YL/person/icon_upArrow.png);
+}
+
+QSpinBox::down-arrow
+{
+	image: url(:/YL/Resources/YL/person/icon_downArrow.png);
+}</string>
+                    </property>
+                    <property name="maximum">
+                     <number>10000</number>
+                    </property>
+                    <property name="value">
+                     <number>2</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_10">
+                    <property name="styleSheet">
+                     <string notr="true">font:11px;
+color:#999999;</string>
+                    </property>
+                    <property name="text">
+                     <string>秒后自动清除对话</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_7" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabPhoneNumCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客手机号码,若要提升抓取精确度,请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_8" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabTelePhoneNumCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客电话号码,若要提升抓取精确度,请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_10" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabQQCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_19">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客QQ号码，若要提升抓取精确度，请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_210" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_218">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabEmailCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_219">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客邮箱，若要提升抓取精确度，请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_16" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabWXCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_21">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客微信号码，若要提升抓取精确度，请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_18" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_21">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoGrabMobileAreaCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_23">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后客户端可以自动抓取访客地区，若要提升抓取精准度，请启用AI机器人</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_22" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>62</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>62</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_24">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_sameTimeCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="tristate">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_26">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>当用户开启多个抓取规则时：启用后，会同时抓取；禁用后，会根据优先级抓取，手机-&gt;微信-&gt;电话-&gt;QQ-&gt;邮箱</string>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>false</bool>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_19" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_23">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_autoSaveInfoCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_25">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>启用后人工介入、接管对话后，访客发送的名片信息，系统仍会抓取到名片</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_promptCreateNewCard_btn" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>42</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>42</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_14">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="m_promptCreateNewCardCheck">
+                 <property name="minimumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>32</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QCheckBox::indicator
+{ 
+    width: 30px;
+    height: 18px;
+}
+
+QCheckBox::indicator::unchecked
+{   
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Close.png);
+}
+
+QCheckBox::indicator::checked
+{ 
+	image: url(:/YL/Resources/YL/AdvancedFilterVisitor/SwitchBtn_Open.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>CheckBox</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_28">
+                 <property name="styleSheet">
+                  <string notr="true">font:11px;
+color:#999999;</string>
+                 </property>
+                 <property name="text">
+                  <string>访客已经留下名片后再次留联系方式，可以新建名片</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UI_Panel_PersonalQuickCommonWord</class>
+ <widget class="QWidget" name="UI_Panel_PersonalQuickCommonWord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>241</width>
+    <height>69</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>快捷常用语</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#UI_Panel_PersonalQuickCommonWord
+{
+border:0px;
+background-color: rgba(255, 255, 255, 0);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_bg
+{
+border:0px;
+background-color: rgba(255, 255, 255, 230);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="UI_PersonalQuickCommonWord_ListView" name="m_listView">
+        <property name="styleSheet">
+         <string notr="true">QListView
+{
+border:0px;
+}</string>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="resizeMode">
+         <enum>QListView::Fixed</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>UI_PersonalQuickCommonWord_ListView</class>
+   <extends>QListView</extends>
+   <header>UI_PersonalQuickCommonWord_ListView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

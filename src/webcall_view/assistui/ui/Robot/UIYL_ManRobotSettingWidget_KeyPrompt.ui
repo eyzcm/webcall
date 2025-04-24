@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui version="4.0">
+ <class>UIYL_ManRobotSettingWidget_KeyPrompt</class>
+ <widget class="QWidget" name="UIYL_ManRobotSettingWidget_KeyPrompt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>对话中访客关键词提醒</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin" stdset="0">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget_bg" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin" stdset="0">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="Line" name="line_1">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>1</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>1</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0px;
+background-color: #dddddd;</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_0_content" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="margin" stdset="0">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_1_title" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>10</number>
+            </property>
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>15</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_1_1_content" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="spacing">
+                <number>5</number>
+               </property>
+               <property name="margin" stdset="0">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_20">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>2</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>2</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLabel
+{
+	background-color: #6b8596;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLabel
+{
+font: 14px &quot;微软雅黑&quot;;
+color:#333333;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>对话中访客关键词提醒</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_10">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>590</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="Line" name="line_2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>1</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>1</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border: 0px;
+background-color: #dddddd;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2_rule" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="margin" stdset="0">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_2_1_list" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>148</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>148</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="widget_up" native="true">
+                 <property name="styleSheet">
+                  <string notr="true">QWidget#widget_up
+{
+	background-color: rgb(255, 255, 255);
+	image: url(:/YL/Resources/YL/MainTree/icon_searchResultNull.png);
+}</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_6">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>10</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                     <widget class="QPushButton" name="m_newRuleBtn">
+                      <property name="minimumSize">
+                       <size>
+                        <width>75</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>75</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton
+{
+border: 0px;
+background-color: #ef733d;
+font: 12px &quot;微软雅黑&quot;;
+color: #ffffff;
+}
+
+QPushButton:hover
+{
+background-color: #f98553;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>新增</string>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc">
+                        <normaloff>:/YL/Resources/YL/Robot/icon_add.png</normaloff>:/YL/Resources/YL/Robot/icon_add.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>12</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="m_searchLine">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>128</width>
+                      <height>32</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>128</width>
+                      <height>32</height>
+                     </size>
+                    </property>
+                    <property name="sizeIncrement">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit
+{
+border:1px solid #dddddd;
+font: 12px &quot;微软雅黑&quot;;
+color:#666666;
+padding-left:5px;
+padding-right:5px;
+}</string>
+                    </property>
+                    <property name="placeholderText">
+                     <string>搜索</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="UIYL_ManRobotRule_KeyWord_ListView" name="m_manRobotRuleListView">
+                    <property name="styleSheet">
+                     <string notr="true">QListView
+{
+border: 0px;
+background-color: rgba(255, 255, 255, 0);
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_save" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QWidget#widget_save
+{
+background-color: #F7F7F9;
+}</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="m_saveRuleListBtn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>60</width>
+                      <height>32</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>60</width>
+                      <height>32</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton
+{
+border: 0px;
+background-color: #279af2;
+font: 12px &quot;微软雅黑&quot;;
+color: #ffffff;
+}
+
+QPushButton:hover
+{
+background-color: #4bb0fe;
+}
+
+QPushButton:disabled
+{
+background-color: #a9d6f9;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>保存</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="Line" name="line_3">
+              <property name="minimumSize">
+               <size>
+                <width>1</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>1</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border: 0px;
+background-color: #dddddd;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_2_2_rule" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QWidget#widget_2_2_rule
+{
+	image: url(:/YL/Resources/YL/Robot/icon_noContent.png);
+}</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="margin" stdset="0">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="UIYL_ManRobotRuleSettingWidget_KeyPrompt" name="m_ruleWidget" native="true"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>UIYL_ManRobotRuleSettingWidget_KeyPrompt</class>
+   <extends>QWidget</extends>
+   <header location="global">uiyl_manrobotrulesettingwidget_keyprompt.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UIYL_ManRobotRule_KeyWord_ListView</class>
+   <extends>QListView</extends>
+   <header location="global">uiyl_manrobotrule_keyword_listview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../../../../../client-webcall-main/src/main/client_resouce/easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>
