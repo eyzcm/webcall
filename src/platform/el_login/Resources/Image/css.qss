@@ -1,0 +1,305 @@
+﻿/*RadioButton样式设置*/
+QRadioButton::indicator {
+    width: 17px;
+    height: 17px;
+}
+/*单选框未选中样式*/
+QRadioButton::indicator::unchecked {
+    image: url(:/Resources/Ws/rbox_uncheck.png);
+}
+/*单选框选中样式*/
+QRadioButton::indicator::checked {
+    image: url(:/Resources/Ws/rbox_checked.png);
+}
+
+
+QRadioButton::indicator::checked:disabled
+{
+        image: url(:/Resources/Ws/rbox_check_unenable.png);
+}
+
+
+QRadioButton::indicator::unchecked:disabled
+{
+        image: url(:/Resources/Ws/rbox_uncheck_unenable.png);
+}
+
+
+/*checkbox样式设置*/
+QCheckBox::indicator {
+    width: 17px;
+    height: 17px;
+}
+/*未选中*/
+QCheckBox::indicator::unchecked {
+        image: url(:/Resources/Ws/cbox_uncheck.png);
+}
+
+QCheckBox::indicator::unchecked:disabled
+{
+        image: url(:/Resources/Ws/cbox_uncheck_unenable.png);
+}
+
+/*选中*/
+QCheckBox::indicator::checked {
+        image: url(:/Resources/Ws/cbox_checked.png);
+}
+
+QCheckBox::indicator::checked:disabled
+{
+        image: url(:/Resources/Ws/cbox_check_unenable.png);
+}
+
+/*Qmenu Style Sheets*/
+QMenu {
+     background-color: white; /* sets background of the menu 设置整个菜单区域的背景色，我用的是白色：white*/
+     border: 1px solid #999999;/*整个菜单区域的边框粗细、样式、颜色*/
+}
+
+QMenu::item {
+    /* sets background of menu item. set this to something non-transparent
+        if you want menu color and menu item color to be different */
+     background-color: white;
+         color:#333333;
+     /*padding:8px 32px;*//*设置菜单项文字上下和左右的内边距，效果就是菜单中的条目左右上下有了间隔*/
+     /*margin:0px 8px;设置菜单项的外边距*/
+     /*border-bottom:1px solid #0000ff;*//*为菜单项之间添加横线间隔*/
+}
+
+QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: #dddddd;/*这一句是设置菜单项鼠标经过选中的样式*/
+         color:#333333;
+}
+QMenu::separator {
+ height:1px;
+ background: #999999;
+ margin-left:3px;
+ margin-right:3px;
+}
+
+
+QPlainTextEdit{
+        border:0px;
+        background-color: rgb(255, 255, 255);
+}
+
+QRadioButton{
+        color: #333333;
+}
+
+
+QLabel{
+        color: #333333;
+}
+
+QLineEdit {
+        border:1px solid #dddddd;
+        color:#333333;
+}
+
+QTextEdit{
+        border:1px solid #dddddd;
+        color:#333333;
+}
+
+QComboBox {
+        border:1px solid #e1e0e0;
+}
+
+
+/* 设置垂直滚动条基本样式*/
+QScrollBar:horizontal
+{
+    height:10px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+        /* 留出9px给上面和下面的箭头*/
+    padding-left:12px;
+    padding-right:12px;
+}
+QScrollBar::handle:horizontal
+{
+    height:10px;
+    background:rgba(0,0,0,25%);
+        /* 滚动条两端变成椭圆*/
+    border-radius:5px;
+    min-width:20;
+}
+QScrollBar::handle:horizontal :hover
+{
+    height:10px;
+        /*鼠标放到滚动条上的时候，颜色变深*/
+    background:rgba(0,0,0,50%);
+    border-radius:5px;
+    min-width:20;
+}
+/* 这个应该是设置下箭头的，3.png就是箭头*/
+QScrollBar::add-line:horizontal
+{
+        padding-left:1px;
+    height:10px;
+        width:10px;
+        image: url(:/Resources/Image/scroll_right_arraw.png);
+    subcontrol-position:right;
+}
+/*  当鼠标放到下箭头上的时候*/
+QScrollBar::add-line:horizontal :hover
+{
+        padding-left:1px;
+    height:10px;
+        width:10px;
+        border-image: url(:/Resources/Image/scroll_right_arraw_over.png);
+    subcontrol-position:right;
+}
+
+/* 设置上箭头*/
+QScrollBar::sub-line:horizontal
+{
+    padding-right:1px;
+    height:10px;
+        width:10px;
+        image: url(:/Resources/Image/scroll_left_arraw.png);
+    subcontrol-position:left;
+}
+
+/* 当鼠标放到上箭头上的时候*/
+QScrollBar::sub-line:horizontal :hover
+{
+    padding-right:1px;
+    height:10px;
+        width:10px;
+        border-image: url(:/Resources/Image/scroll_left_arraw_over.png);
+    subcontrol-position:left;
+}
+/* 当滚动条滚动的时候，上面的部分和下面的部分*/
+QScrollBar::add-page:horizontal ,QScrollBar::sub-page:horizontal
+{
+    background:rgba(0,0,0,10%);
+   /* border-radius:4px;*/
+}
+
+
+QScrollBar:vertical
+{
+    border: none;
+        border-radius: 4px;
+    background: #e5e5e5;
+    width: 8px;
+    margin: 0px 0 0px 0;
+}
+QScrollBar::handle:vertical
+{
+    background: #bfbfbf;
+    min-height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+QScrollBar::handle:vertical:hover
+{
+    background: #808080;
+    min-height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+QScrollBar::add-line:vertical
+{
+    border: 0px solid grey;
+    background: #32CC99;
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical
+{
+    border: 0px solid grey;
+    background: #32CC99;
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+/*      QTreeView       */
+QTreeView {
+        color:#333333;
+        /* background-color: rgb(255, 255, 255);
+    show-decoration-selected: 0; */
+}
+
+QTreeView::item {
+    margin:2px 0px 2px 0px;
+        color:#333333;
+}
+/* 鼠标在QTreeView上面移动时的效果 */
+QTreeView::item:hover {
+    margin:2px 0px 2px 0px;
+        color:#333333;
+}
+
+QTreeView::item:selected {
+    margin:2px 0px 2px 0px;
+        color:#333333;
+}
+/* 有兄弟节点，但是兄弟节点不相邻 */
+QTreeView::branch:has-siblings:!adjoins-item {
+        border-image: none;
+}
+
+/* 有兄弟节点且兄弟节点相邻 */
+QTreeView::branch:has-siblings:adjoins-item {
+        border-image: none;
+}
+/* 叶子节点 */
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+        border-image: none;
+}
+
+/* 有子节点且收起的情况 */
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(:/Resources/Image/c_arrow_up.png);
+}
+/* 有子节点且展开的情况 */
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings {
+        border-image: none;
+        image: url(:/Resources/Image/c_arrow_down.png);
+}
+
+QHeaderView::section
+{
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+        border-top: 1px solid #EEEEEE;
+        border-bottom: 1px solid #EEEEEE;
+        font: 12px '微软雅黑';
+        color: #333333;
+        font-weight:bold;
+        background-color: #e9f4ff;
+        padding-left:10px;
+}
+
+QHeaderView::up-arrow {						/*设置向上排序指针*/
+        width: 6px;
+        height: 8px;
+        padding-right: 10px;					 	/*设置右内边距*/
+        subcontrol-position: center right;
+}
+QHeaderView::up-arrow:hover, QHeaderView::up-arrow:pressed {
+
+}
+QHeaderView::down-arrow {						/*设置向下排序指针*/
+        width: 6px;
+        height: 8px;
+        padding-right: 10px;
+        subcontrol-position: center right;
+}
+QHeaderView::down-arrow:hover, QHeaderView::down-arrow:pressed {
+
+}

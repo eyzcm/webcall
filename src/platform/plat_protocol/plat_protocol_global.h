@@ -1,0 +1,12 @@
+#ifndef PLAT_PROTOCOL_GLOBAL_H
+#define PLAT_PROTOCOL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PLAT_PROTOCOL_LIBRARY)
+#  define PLAT_PROTOCOL_EXPORT Q_DECL_EXPORT
+#else
+#  define PLAT_PROTOCOL_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PLAT_PROTOCOL_GLOBAL_H

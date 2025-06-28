@@ -1,0 +1,12 @@
+#ifndef PLAT_CLIENTAPI_GLOBAL_H
+#define PLAT_CLIENTAPI_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PLAT_CLIENTAPI_LIBRARY)
+#  define PLAT_CLIENTAPI_EXPORT Q_DECL_EXPORT
+#else
+#  define PLAT_CLIENTAPI_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PLAT_CLIENTAPI_GLOBAL_H

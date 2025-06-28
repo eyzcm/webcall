@@ -1,0 +1,43 @@
+# if defined(UNDER_CE)
+#  include <winbase.h>
+# else
+#  include <winver.h>
+# endif
+
+
+#define EL_END "\0"
+#define V_EASYLIAOFILEDESCRIPTION "Easy Liao " EL_PROJECTNAME "\0"
+
+
+IDI_ICON1               ICON                    "easy.ico"
+
+VS_VERSION_INFO VERSIONINFO
+#  include "version.h" //需要注意根据工程目录,此处包含位置
+FILEVERSION V_EASYLIAOCLIENTVERSION    //版本号 
+#ifdef _DEBUG
+FILEFLAGS VS_FF_DEBUG
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_DLL
+FILESUBTYPE 0x0L
+BEGIN
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904B0"
+BEGIN 
+VALUE "CompanyName", V_EASYLIAOCOMPANYNAME                   //公司名称
+VALUE "FileVersion", V_EASYLIAOCLIENTVERSION                 //文件版本
+VALUE "FileDescription", V_EASYLIAOFILEDESCRIPTION           //文件描述
+VALUE "ProductVersion", V_EASYLIAOCLIENTVERSION_STR          //产品版本
+VALUE "LegalCopyright", V_EASYLIAOLEGALCOPYRIGHT             //版权
+VALUE "OriginalFilename", V_EASYLIAOORIGINALFILENAME         //原始文件名
+VALUE "ProductName",  V_EASYLIAOFILEDESCRIPTION              //产品描述
+END
+END
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x409, 1252
+END
+END

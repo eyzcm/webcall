@@ -1,0 +1,41 @@
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/mkspecs/win32-msvc
+-IG:/work/newelv2/platform/src/platform/plat_utils
+-IG:/work/newelv2/platform/src/platform/plat_utils
+-IG:/work/newelv2/platform/src/platform/plat_utils/js
+-IG:/work/newelv2/platform/src/platform/plat_utils/ui
+-IG:/work/newelv2/platform/src/platform/plat_utils/common
+-IG:/work/newelv2/utils/src/utils/utils_interface
+-IG:/work/newelv2/utils/src/utils/el_common/utils
+-IG:/work/newelv2/utils/src/utils/el_common/data
+-IG:/work/newelv2/utils/src/utils/el_common/include
+-IG:/work/newelv2/utils/src/utils/el_common
+-IG:/work/newelv2/platform/src/platform/plat_utils
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtMultimedia
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtWebEngineWidgets
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtWebEngineCore
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtQuick
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtPrintSupport
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtSvg
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtWidgets
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtGui/5.14.2
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtGui/5.14.2/QtGui
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtGui
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtANGLE
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtQmlModels
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtWebChannel
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtQml
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtNetwork
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtXml
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtPositioning
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtCore/5.14.2
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtCore/5.14.2/QtCore
+-ID:/QT/QT5.14.2/5.14.2/MSVC2017/include/QtCore
+-Id:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include
+-Id:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include
+-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt

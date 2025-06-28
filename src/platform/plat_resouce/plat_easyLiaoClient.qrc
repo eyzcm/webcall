@@ -1,0 +1,65 @@
+﻿<RCC>
+    <qresource prefix="/Qt_Login"/>
+    <qresource prefix="/login">
+        <file>Resources/YL/person/autoResponse.png</file>
+        <file>Resources/YL/person/btn_sysconfig.png</file>
+        <file>Resources/YL/person/dialogue.png</file>
+        <file>Resources/YL/person/mainInterface.png</file>
+        <file>Resources/YL/person/notification.png</file>
+        <file>Resources/YL/person/personalData.png</file>
+        <file>Resources/Image/Login/btn_close.png</file>
+        <file>Resources/Image/Login/btn_close_child.png</file>
+        <file>Resources/Image/Login/btn_login_normal.png</file>
+        <file>Resources/Image/Login/btn_login_wait.png</file>
+        <file>Resources/Image/Login/btn_mini_size.png</file>
+        <file>Resources/Image/Login/btn_pull_down.png</file>
+        <file>Resources/Image/Login/checkBox_selection.png</file>
+        <file>Resources/Image/Login/edit_pw.png</file>
+        <file>Resources/Image/Login/edit_user_name.png</file>
+        <file>Resources/Image/Login/head_portrait_child.png</file>
+        <file>Resources/Image/Login/head_portrait_main.png</file>
+        <file>Resources/Image/Login/label_error_bg.png</file>
+        <file>Resources/Image/Login/label_error_icon.png</file>
+        <file>Resources/Image/Login/user_status_busy.png</file>
+        <file>Resources/Image/Login/user_status_leave.png</file>
+        <file>Resources/Image/Login/user_status_online.png</file>
+        <file>Resources/Image/Login/user_status_busy_cur.png</file>
+        <file>Resources/Image/Login/user_status_leave_cur.png</file>
+        <file>Resources/Image/Login/user_status_online_cur.png</file>
+        <file>Resources/Image/Login/btn_pull_up.png</file>
+        <file>Resources/Image/Login/icon_user_hover.png</file>
+        <file>Resources/Image/Login/icon_user_normal.png</file>
+        <file>Resources/Image/Login/icon_phone_hover.png</file>
+        <file>Resources/Image/Login/icon_phone_normal.png</file>
+        <file>Resources/Image/Login/icon_wx_hover.png</file>
+        <file>Resources/Image/Login/icon_wx_normal.png</file>
+        <file>Resources/Image/Login/widget_main_bg.png</file>
+        <file>Resources/Image/TransitionPage/easy.ico</file>
+        <file>Resources/Image/TransitionPage/icon_bg.png</file>
+        <file>Resources/Image/TransitionPage/icon_companyTitle.png</file>
+        <file>Resources/Image/TransitionPage/icon_firstPicture.png</file>
+        <file>Resources/Image/TransitionPage/icon_secondPicture.png</file>
+        <file>Resources/Image/TransitionPage/icon_threePicture.png</file>
+    </qresource>
+    <qresource prefix="/shadow_main">
+        <file>Resources/Image/Login/MainShadow/down.png</file>
+        <file>Resources/Image/Login/MainShadow/left.png</file>
+        <file>Resources/Image/Login/MainShadow/left_bottom.png</file>
+        <file>Resources/Image/Login/MainShadow/left_top.png</file>
+        <file>Resources/Image/Login/MainShadow/right.png</file>
+        <file>Resources/Image/Login/MainShadow/right_bottom.png</file>
+        <file>Resources/Image/Login/MainShadow/right_top.png</file>
+        <file>Resources/Image/Login/MainShadow/up.png</file>
+    </qresource>
+    <qresource prefix="/shadow_child">
+        <file>Resources/Image/Login/ChildShadow/down.png</file>
+        <file>Resources/Image/Login/ChildShadow/left.png</file>
+        <file>Resources/Image/Login/ChildShadow/left_bottom.png</file>
+        <file>Resources/Image/Login/ChildShadow/left_top.png</file>
+        <file>Resources/Image/Login/ChildShadow/right.png</file>
+        <file>Resources/Image/Login/ChildShadow/right_bottom.png</file>
+        <file>Resources/Image/Login/ChildShadow/right_top.png</file>
+        <file>Resources/Image/Login/ChildShadow/up.png</file>
+    </qresource>
+    
+</RCC>

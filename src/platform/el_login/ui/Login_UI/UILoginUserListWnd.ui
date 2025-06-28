@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UILoginUserListWnd</class>
+ <widget class="QWidget" name="UILoginUserListWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>118</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>用户登陆列表</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../easyliaoclient.qrc">
+    <normaloff>:/Resources/Image/easy.ico</normaloff>:/Resources/Image/easy.ico</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin" stdset="0">
+    <number>1</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="userListScrollArea">
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="m_userListScrollAreaWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>299</width>
+        <height>116</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(255, 255, 255);</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_34">
+       <property name="margin" stdset="0">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QListWidget" name="m_userWordListWidget">
+         <property name="styleSheet">
+          <string notr="true">QListWidget
+{
+outline:0px;
+border:1px solid rgb(227, 227, 227);
+background-color:rgb(255,255,255);
+}
+
+QListWidget::item:hover
+{
+background-color:#f5f7fa;
+}
+																	
+QListWidget::item:selected
+{
+background-color:#f5f7fa;
+}
+
+QScrollBar:vertical{width:8px;background:rgba(0,0,0,0%);}																
+QScrollBar::handle:vertical{width:8px;background:rgba(0,0,0,25%);border-radius:4px;}										
+QScrollBar::handle:vertical:hover{width:8px;background:rgba(0,0,0,50%);border-radius:4px;}								
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical{height:0px;width:0px;}										
+QScrollBar::add-line:vertical:hover,QScrollBar::sub-line:vertical:hover{height:0px;width:0px;}							
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{background:rgb(255,255,255);border-radius:4px;}				
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;}										
+QScrollBar:horizontal {height: 0px;}		</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="0" margin="0"/>
+ <resources>
+  <include location="../../easyliaoclient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

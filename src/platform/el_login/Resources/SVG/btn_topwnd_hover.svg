@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>已置顶</title>
+    <g id="QT5图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C-顶部功能区" transform="translate(-96.000000, -198.000000)" fill="#FFFFFF">
+            <g id="已置顶" transform="translate(96.000000, 198.000000)">
+                <path d="M6.99999999,11 L7.99999999,11 L7.99999999,15 L6.99999999,15 L6.99999999,11 Z M1,10.9967041 L14,10.9967041 L14,10.0050659 L11.0123291,7.40411377 L11.0123291,1.99871826 L12.9985352,1.99871826 L12.9985352,1 L2.00268555,1 L2.00268555,1.99871826 L4.00427246,1.99871826 L4.00427246,7.40411377 L1,10.0050659 L1,10.9967041 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>
