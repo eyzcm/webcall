@@ -35,6 +35,7 @@ include(plat_controll.pri)
 INCLUDEPATH += ./ \
     ../plat_utils/common \
     ../plat_utils/js \
+    ../plat_ui \
     ../plat_view \
     ../plat_view/ui \
     ../plat_utils/ \
@@ -65,9 +66,11 @@ LIBS += -L$$OUT_PWD/../el_session$$DEBUG_RELEASE -lel_session \
 -L$$OUT_PWD/../utils_interface$$DEBUG_RELEASE -lutils_interface \
 -L$$OUT_PWD/../plat_utils$$DEBUG_RELEASE -lplat_utils \
 -L$$OUT_PWD/../platdata$$DEBUG_RELEASE -lplatdata \
+-L$$OUT_PWD/../plat_ui$$DEBUG_RELEASE -lplat_ui \
 -L$$OUT_PWD/../plat_interface$$DEBUG_RELEASE -lplat_interface \
 -L$$OUT_PWD/../plat_model$$DEBUG_RELEASE -lplat_model \
 -L$$OUT_PWD/../el_common$$DEBUG_RELEASE -lel_common
+
 }
 macx {
 LIBS += -L$$DESTDIR -lel_session  -lplat_utils  -lplatdata  -lel_common
@@ -82,9 +85,30 @@ QMAKE_LFLAGS_RELEASE += /debug /opt:ref
 QMAKE_CFLAGS_RELEASE += /Zi
 # 启用多线程、异常、RTTI、STL支持
 CONFIG += thread exceptions rtti stl
+
+
+win32 {
+    LIBS += -lkernel32
+    LIBS += -luser32
+    LIBS += -lgdi32
+    LIBS += -lwinspool
+    LIBS += -lcomdlg32
+    LIBS += -ladvapi32
+    LIBS += -lshell32
+    LIBS += -lole32
+    LIBS += -loleaut32
+    LIBS += -luuid
+    LIBS += -lodbc32
+    LIBS += -lodbccp32
+    }
+
+
 msvc{
     QMAKE_CXXFLAGS += /source-charset:utf-8 /execution-charset:utf-8
 }
+
+
+
 
 # Default rules for deployment.
 unix {

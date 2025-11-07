@@ -88,7 +88,7 @@ public slots:
     void R_GetBatchUserCurrentChatListFinished(QString code, QString reason, QString body);
 
 
-private:
+private slots:
     void ReReqTimeOut();
 
 
