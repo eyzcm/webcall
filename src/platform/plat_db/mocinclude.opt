@@ -1,0 +1,41 @@
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/mkspecs/win32-msvc
+-ID:/work/newim/platform/src/platform/plat_db
+-ID:/work/newim/platform/src/platform/plat_db
+-ID:/work/newim/platform/src/platform/plat_utils
+-ID:/work/newim/platform/src/platform/plat_interface
+-ID:/work/newim/platform/src/platform/platdata
+-ID:/work/newim/platform/src/platform/el_session
+-ID:/work/newim/utils/src/utils/utils_interface
+-ID:/work/newim/utils/src/utils/el_common
+-ID:/work/newim/utils/src/utils/runInterface
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtMultimedia
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtWebEngineWidgets
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtWebEngineCore
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtQuick
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtPrintSupport
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtSvg
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtWidgets
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtGui/5.14.2
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtGui/5.14.2/QtGui
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtGui
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtANGLE
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtQmlModels
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtWebChannel
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtQml
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtNetwork
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtXml
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtPositioning
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtCore/5.14.2
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtCore/5.14.2/QtCore
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtSql
+-ID:/Qt/Qt5.14.2/5.14.2/msvc2017/include/QtCore
+-ID:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include
+-ID:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\ATLMFC\include
+-ID:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt
+-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um
+-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared
+-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt
+-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt
+-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um
